@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="380.51682mm"
+   height="61.012005mm"
+   viewBox="0 0 1348.288 216.18427"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="vueconf_logo.svg"
+   inkscape:export-filename="/home/igor/Documents/vue.js experience/vuejsexperience-logo-inline.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4349">
+      <stop
+         style="stop-color:#35495e;stop-opacity:1;"
+         offset="0"
+         id="stop4351" />
+      <stop
+         style="stop-color:#35495e;stop-opacity:0;"
+         offset="1"
+         id="stop4353" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4333">
+      <stop
+         style="stop-color:#41b883;stop-opacity:1;"
+         offset="0"
+         id="stop4335" />
+      <stop
+         style="stop-color:#41b883;stop-opacity:0;"
+         offset="1"
+         id="stop4337" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4333"
+       id="linearGradient4339"
+       x1="344.40335"
+       y1="509.23724"
+       x2="347.86829"
+       y2="363.53171"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.2166434,0,0,5.2166434,-988.45851,-2413.5549)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4349"
+       id="linearGradient4355"
+       x1="347.86829"
+       y1="363.53171"
+       x2="341.50803"
+       y2="450.67456"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.2166434,0,0,5.2166434,-988.45851,-2388.5243)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="489.04625"
+     inkscape:cy="179.28649"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-489.02488,50.338607)">
+    <g
+       id="g4166"
+       transform="matrix(0.32924264,0,0,0.32924264,349.3025,98.603955)">
+      <path
+         id="path4190"
+         d="m 1033.4054,-452.37932 152.2576,0 -380.64397,656.61077 -380.64391,-656.61077 291.19262,0 89.45129,152.2576 87.54811,-152.2576 140.83826,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient4339);fill-opacity:1" />
+      <path
+         id="path4194"
+         d="m 574.72948,-427.34866 230.28955,395.869676 228.38637,-395.869676 -140.83826,0 -87.54811,152.25759 -89.45129,-152.25759 -140.83826,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:url(#linearGradient4355);fill-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:208.66574097px;line-height:0%;font-family:sans-serif;letter-spacing:-79.76247406px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="772.78986"
+       y="108.62959"
+       id="text4148"
+       sodipodi:linespacing="0%"><tspan
+         sodipodi:role="line"
+         id="tspan4150"
+         x="772.78986"
+         y="108.62959"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Heebo;-inkscape-font-specification:'Heebo Bold';letter-spacing:0px;fill:#666666">vue.js</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:208.66574097px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1341.0566"
+       y="102.54686"
+       id="text4152"
+       sodipodi:linespacing="0%"><tspan
+         sodipodi:role="line"
+         id="tspan4154"
+         x="1341.0566"
+         y="102.54686"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:130.41609192px;font-family:Heebo;-inkscape-font-specification:'Heebo Ultra-Light';fill:#666666;fill-opacity:1">SUMMIT</tspan></text>
+  </g>
+</svg>
