@@ -19,12 +19,12 @@
         li.navbar-nav__item
           nuxt-link(to="/schedule")
             | Agenda
-        li.navbar-nav__item
-          nuxt-link(to="/guide")
-            | Guia
-        li.navbar-nav__item
-          nuxt-link.button(to="/summary")
-            | Sumário
+        //- li.navbar-nav__item
+        //-   nuxt-link(to="/guide")
+        //-     | Guia
+        //- li.navbar-nav__item
+        //-   nuxt-link.button(to="/summary")
+        //-     | Sumário
 </template>
 
 <script>

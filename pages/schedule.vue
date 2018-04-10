@@ -1,7 +1,7 @@
 <template lang="pug">
 .container
   .container__inner.post-section
-    h1.agenda__header Conference program
+    h1.agenda__header Agenda da conferência
     p.subheader__description
       strong DAY 1 (22 June) 9:00 – 18:00
       br
