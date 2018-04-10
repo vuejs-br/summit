@@ -3,60 +3,43 @@
   .container__inner.post-section
     h1.agenda__header Workshops
     p.subheader__description
-      strong DAY 1 (21 June) 9:00 – 17:00
+      strong DAY 1 (30 agosto) 9:00 – 17:30
       br
       strong 
-        | Location:
-        a(href="https://goo.gl/maps/Y9MwJikkhB32", target="_BLANK")  ibis Styles Wrocław
+        | Localização:
+        a(
+          href="https://www.google.com.br/maps/place/Salas+Brasil+-+Paraiso/@-23.5716738,-46.6431551,15z/data=!4m5!3m4!1s0x0:0x3c65b3e7403c5a44!8m2!3d-23.5716738!4d-46.6431551",
+          target="_BLANK")  Espaço Paraíso
       br
+      //- br
+      //- | Theory is not enough.
+      //- br
+      //- | Join our intensive,
+      //- strong  8-hour long workshops
+      //- |  with world-class Vue.js experts.
+      //- br
       br
-      | Theory is not enough.
-      br
-      | Join our intensive,
-      strong  8-hour long workshops
-      |  with world-class Vue.js experts.
-      br
-      br
-      | Workshops and conference tickets are sold separately.
+      | Workshops são vendidos separados da conferência
       br
       br
       small
-        strong Requirements:
+        strong Requerimentos:
         br
-        | - A laptop and a charger
+        | - Notebook e o carregador
         br
-        | - Dev environment ready (Node.js + npm/yarn)
+        | - Ambiente de desenvolvimento pronto (Node.js + npm/yarn)
         br
-        | - Your favourite editor
+        | - Seu editor de código favorito
     .agenda
       talk(:talk="evanWorkshop", :desc-flex="7")
         a.button(slot="ticket", disabled) Sold out
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
-          As an application grows, you will notice that components will share common code and state. Eventually as the application grows it can become more important to manage this state carefully, to improve maintainability, predictability and application flow.
-
-          Vuex, is inspired by elm. It is not only a **library** but a **state management pattern**. Introducing these patterns, improves the overall application flow and creates a centralised state. However, it is easy to go overboard with state managment; thus we will look at a full range of best practices to ensure you can make the most of Vuex.
-
-          Schedule:
-          - What is Vuex?
-          - Looking at state management patterns
-          - Determining application state from local state
-          - Using **Actions**, **Mutations** and **Getters**
-          - Modularising a store
-          - Composing actions (Promises and Async/Await)
-          - Avoiding common pitfalls
+          A definir
         a.button(slot="ticket", disabled) Sold out
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
-          In one day of training, attendees will go from knowing nothing (or very little) about animating in Vue to creating complex effects in performant and visually stunning patterns. The web is more than a document reader, and Vue has unique offerings that make animations not only possible, but possible to do in an organized and state-managed manner.
-
-          What we'll go over is included but not limited to:
-          - Working with SVG within Vue components
-          - Creating custom directives for animation
-          - Using in-out modes to create effective and reusable component composition
-          - Using Vue <transition> hooks for external javascript libraries
-          - Interpolating state for data visualization with watchers
-          - Integration of animation with routers for page transition
+          A definir
         a.button(slot="ticket", disabled) Sold out
 </template>
 
@@ -72,43 +55,43 @@ export default {
     return {
       evanWorkshop: {
         type: "talk",
-        img: "/img/evan.jpg",
-        topic: "Advanced Features from the Ground Up",
-        author: "Evan You",
+        img: "/img/igor.jpg",
+        topic: "Server side rendering com Vue.js",
+        author: "Igor Luiz",
         social: [
           {
-            github: "https://github.com/yyx990803",
-            twitter: "https://twitter.com/youyuxi"
+            github: "https://github.com/halfeld",
+            twitter: "https://twitter.com/IgorHalfeld"
           }
         ],
-        authorInfo: "Vue.js Author",
-        description: "We often reach for existing libraries when dealing with advanced app features such as routing, state management, form validation and i18n, and a lot of times the implementations behind these libraries can be a black box. \n\n In this workshop we are going to build simple versions of such libraries from the ground up using basic Vue features. \n\n This will help you better understand the nature of these problems and how to better leverage Vue’s reactivity system to come up with elegant solutions."
+        authorInfo: "Senior Front-end engineer at stored",
+        description: "A definir"
       },
       blakeWorkshop: {
         type: "talk",
-        img: "/img/blake.jpg",
-        topic: "Application state with Vuex",
-        author: "Blake Newman",
+        img: "/img/fabio.png",
+        topic: "A definir",
+        author: "Fábio Vedovelli",
         social: [
           {
-            github: "https://github.com/blake-newman",
+            github: "https://github.com/vedovelli",
             twitter: "https://twitter.com/blakenewman"
           }
         ],
-        authorInfo: "Software Engineer at Sainsbury’s",
+        authorInfo: "Head of Front-end at octimine",
       },
       sarahWorkshop: {
         type: "talk",
-        img: "/img/sarah.jpg",
-        topic: "Animated Interfaces with Vue.js",
-        author: "Sarah Drasner",
+        img: "/img/vini.jpeg",
+        topic: "A definir",
+        author: "Vinicius Reis",
         social: [
           {
-            github: "https://github.com/sdras",
-            twitter: "https://twitter.com/sarah_edo"
+            github: "https://github.com/vinicius73",
+            twitter: "https://twitter.com/LuizVinicius73"
           }
         ],
-        authorInfo: "Consultant",
+        authorInfo: "Application Engineer at decision6",
       }
     }
   }

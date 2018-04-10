@@ -13,7 +13,15 @@
           a.icon.icon--github(href="https://github.com/yyx990803" target="_blank")
           a.icon.icon--twitter(href="https://twitter.com/youyuxi" target="_blank")
 
-      .organizer.organizer--last
+      .organizer
+        img.organizer__image(src="~static/img/vini.jpeg" alt="Vinicius Reis")
+        .organizer__title
+          | Vinicius Reis
+        .organizer__social
+          a.icon.icon--github(href="https://github.com/yyx990803" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/youyuxi" target="_blank")
+
+      .organizer
         img.organizer__image(src="~static/img/igor.jpg" alt="Igor Halfeld")
         .organizer__title
           | Igor Halfeld

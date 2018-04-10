@@ -2,16 +2,13 @@
 .container
   .container__inner.post-section
     h1
-      | Speakers
+      | Palestrantes
 
     speakers-list(:speakers="speakers", :adjust-img-url="true")
 
     .center
       nuxt-link(to="/schedule")
-        button.button.speaker-button Check out the schedule
-
-    h2
-      | More announcements soon!
+        button.button.speaker-button Veja a agenda!
 </template>
 
 <script>
