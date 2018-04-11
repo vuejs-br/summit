@@ -24,7 +24,7 @@ export default [
     "quote": "A definir"
   },
   {
-    "name": "Call 4 papers",
+    "name": "Laís Tomaz",
     "title": "Laís Tomaz",
     "img": "/img/lais.jpg",
     "github": "laistomazz",
