@@ -3,7 +3,7 @@
   .container__inner.post-section
     h1.agenda__header Workshops
     p.subheader__description
-      strong DAY 1 (30 agosto) 9:00 – 17:30
+      strong Dia 1 (30 agosto) 9:00 – 17:30
       br
       strong 
         | Localização:

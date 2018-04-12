@@ -23,14 +23,17 @@
         a(href="https://www.meetup.com/Nerdzao/", target="_BLANK")
           img.partner__image(src="~assets/img/nerdzao.jpeg")
       div
+        a(href="https://www.meetup.com/Vue-js-in-Rio/", target="_BLANK")
+          img.partner__image(src="~assets/img/vuejs-rj.jpeg")
         a(href="https://www.meetup.com/Javascript-SP/", target="_BLANK")
           img.partner__image(src="~assets/img/jssp.jpeg")
         a(href="https://www.meetup.com/nodebr/", target="_BLANK")
           img.partner__image(src="~assets/img/nodebr.jpg")
+      div
         a(href="https://www.meetup.com/Frontend-Dev-SP-Meetup/", target="_BLANK")
           img.partner__image(src="~assets/img/frontend-sp.jpeg")
-        a(href="https://www.meetup.com/Vue-js-in-Rio/", target="_BLANK")
-          img.partner__image(src="~assets/img/vuejs-rj.jpeg")
+        a(href="http://www.frontinsampa.com.br/", target="_BLANK")
+          img.sponsor__image(src="~assets/img/frontinsampa.jpeg")
 
     p Comunidades que nos auxiliarão na divulgação intensa do evento
     p para alcançar o máximo de interessados possíveis.
