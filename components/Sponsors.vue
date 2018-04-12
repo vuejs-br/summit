@@ -9,7 +9,7 @@
 
     p Patrocine essa iniciativa, tenha sua marca nesse evento
     p e nos auxilie a tornar essa experiência inesquecível
-    a.button(href="mailto:contato@vuejssummit.com") Seja patrocinador
+    a.button(href="mailto:vuejssummit@gmail.com") Seja patrocinador
 
     h2 Comunidades parceiras
     .sponsors__container
@@ -37,7 +37,7 @@
 
     p Comunidades que nos auxiliarão na divulgação intensa do evento
     p para alcançar o máximo de interessados possíveis.
-    a.button(href="mailto:contato@vuejssummit.com") Seja parceiro
+    a.button(href="mailto:vuejssummit@gmail.com") Seja parceiro
 </template>
 
 <script>

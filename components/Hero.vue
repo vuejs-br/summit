@@ -10,7 +10,7 @@
         strong 3 Workshops - 6 Palestras - 480 participantes
       h2.hero-banner__subheader.hero-banner__subheader--last
         | A maior experiência Vue.js da america latina!
-      nuxt-link.post-section__button.button(to="/summary")
+      a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLScvf59n5NqwQcw70qUBZqzT3w6VwWXCREUav6DszzlTkqXwaw/viewform", target="_BLANK")
         | Fique sabendo
         br
         | quando começar as vendas

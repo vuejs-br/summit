@@ -41,6 +41,9 @@
         :markdown-it
           A definir
         a.button(slot="ticket", disabled) Vendas em breve
+    .center
+      a(href="https://docs.google.com/forms/d/e/1FAIpQLSfFP7wJhNkaYtVUwnKYLhgtW6HIr7ESVSXn_o86zbUMqTtbww/viewform", target="_BLANK")
+        button.button.speaker-button Mande sua palestra!
 </template>
 
 <script>

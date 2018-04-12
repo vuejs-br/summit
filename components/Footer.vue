@@ -7,12 +7,12 @@ footer.footer
         li
           | Twitter:
           = ' '
-          a(href="https://twitter.com/vueconf" target="_blank")
-            span.at Vuejssummit
+          a(href="https://twitter.com/vuejssummit" target="_blank")
+            span.at VuejsSummit
         li
           | Email:
-          a  contato
-            span.at vuejssummit.com
+          a  vuejssummit
+            span.at gmail.com
       ul.footer__list.footer__list--small
         h3.footer__header Links úteis
         li: nuxt-link(to="/speakers") Palestrantes

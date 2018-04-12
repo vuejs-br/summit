@@ -10,8 +10,7 @@
         .organizer__title
           | Thaíssa Candella
         .organizer__social
-          a.icon.icon--github(href="https://github.com/yyx990803" target="_blank")
-          a.icon.icon--twitter(href="https://twitter.com/youyuxi" target="_blank")
+          a.icon.icon--linkedin(href="https://linkedin.com/in/thaissacandella/" target="_blank")
 
       .organizer
         img.organizer__image(src="~static/img/igor.jpg" alt="Igor Halfeld")
@@ -31,6 +30,13 @@
         .organizer__social
           a.icon.icon--github(href="https://github.com/deividmarques" target="_blank")
           a.icon.icon--twitter(href="https://twitter.com/deividmarques" target="_blank")
+      .organizer
+        img.organizer__image(src="~static/img/rodrigo.jpeg" alt="Rodrigo Botti")
+        .organizer__title
+          | Rodrigo Botti
+        .organizer__social
+          a.icon.icon--linkedin(href="https://linkedin.com/in/rodrigo-botti/" target="_blank")
+          a.icon.icon--github(href="https://github.com/rodrigobotti" target="_blank")
       .organizer
         img.organizer__image(src="~static/img/caio.jpeg" alt="Caio Incau")
         .organizer__title
