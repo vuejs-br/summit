@@ -3,7 +3,7 @@
   .container__inner.post-section
     h1.agenda__header Agenda da conferência
     p.subheader__description
-      strong Dia 2 de conferência 9:00 – 18:00
+      strong Dia 2 de conferência 9:00 – 18:30
       br
       | A agenda esta sujeita a mudanças
     .agenda
@@ -29,7 +29,7 @@ import eventsDay1 from '../content/scheduleDay1'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Talks'
+    title: 'Vue.js summit 2018 | Talks'
   },
   components: { Event },
   data () {

@@ -1,17 +1,17 @@
 <template lang="pug">
 .section.sponsors-section.center
   .container__inner
-    // h1 Sponsors
-    // .sponsors__container
-    //   .div
-    //     a(href="https://codeship.com/", target="_BLANK")
-    //       img.sponsor__image(src="~assets/img/logo_codeship_colour.svg")
-    //     a(href="https://www.nativescript.org/", target="_BLANK")
-    //       img.sponsor__image(src="~assets/img/logo_native-script.svg")
-    //     a(href="https://monaca.io/", target="_BLANK")
-    //       img.sponsor__image(src="~assets/img/monaca-logo.svg")
+    h1 Patrocinadores
+    .sponsors__container
+      .div
+        a(href="https://stored.com.br/", target="_BLANK")
+          img.partner__image(src="~assets/img/stored.png")
+    
+    p Patrocine essa iniciativa, tenha sua marca nesse evento
+    p e nos auxilie a tornar essa experiência inesquecível
+    a.button(href="mailto:support@vueconf.eu") Seja patrocinador
 
-    h2 Parceiros
+    h2 Comunidades parceiras
     .sponsors__container
       div
         a(href="https://www.meetup.com/VueJS-SP/", target="_BLANK")
@@ -32,8 +32,9 @@
         a(href="https://www.meetup.com/Vue-js-in-Rio/", target="_BLANK")
           img.partner__image(src="~assets/img/vuejs-rj.jpeg")
 
-    p Entre como parceiro, e ajude a tornar uma experiência inesquecivel.
-    a.button(href="mailto:support@vueconf.eu") Seja um parceiro
+    p Comunidades que nos auxiliarão na divulgação intensa do evento
+    p para alcançar o máximo de interessados possíveis.
+    a.button(href="mailto:support@vueconf.eu") Seja parceiro
 </template>
 
 <script>

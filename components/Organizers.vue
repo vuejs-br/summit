@@ -2,7 +2,7 @@
 .section.organizers-section.post-section
   .container__inner
     h1
-      | Pessoas por trás da conferência
+      | Organizadores
 
     .organizers
       .organizer
@@ -14,33 +14,52 @@
           a.icon.icon--twitter(href="https://twitter.com/youyuxi" target="_blank")
 
       .organizer
-        img.organizer__image(src="~static/img/vini.jpeg" alt="Vinicius Reis")
-        .organizer__title
-          | Vinicius Reis
-        .organizer__social
-          a.icon.icon--github(href="https://github.com/yyx990803" target="_blank")
-          a.icon.icon--twitter(href="https://twitter.com/youyuxi" target="_blank")
-
-      .organizer
         img.organizer__image(src="~static/img/igor.jpg" alt="Igor Halfeld")
         .organizer__title
           | Igor Halfeld
         .organizer__social
           a.icon.icon--github(href="https://github.com/shentao" target="_blank")
           a.icon.icon--twitter(href="https://twitter.com/damiandulisz" target="_blank")
+    h1
+      | Contribuidores
 
-      // .organizer__company
-      //   .organizer__content
-      //     p.post-section__paragraph
-      //       | Organized and supported by
-
-      //     a.organizers__logo(href="http://monterail.com?utm_campaign=Vue.js&utm_medium=site&utm_source=vjsconf" target="_blank")
-      //       img(src="~assets/img/monterail-logotype.svg" alt="Monterail")
-
-    // .organizers-more
-    //   .organizers-more__text
-    //     | #[a(href="http://monterail.com?utm_campaign=Vue.js&utm_medium=site&utm_source=vjsconf" target="_blank") Monterail] is a #[strong web development and design agency] based in Poland.
-    //     | #[br] And we kinda love #[strong Vue]!
+    .organizers
+      .organizer
+        img.organizer__image(src="~static/img/devid.png" alt="Deivid Marques")
+        .organizer__title
+          | Deivid Marques
+        .organizer__social
+          a.icon.icon--github(href="https://github.com/deividmarques" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/deividmarques" target="_blank")
+      .organizer
+        img.organizer__image(src="~static/img/caio.jpeg" alt="Caio Incau")
+        .organizer__title
+          | Caio Incau
+        .organizer__social
+          a.icon.icon--github(href="https://github.com/caioincau" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/iCaioIncau" target="_blank")
+    .organizers
+      .organizer
+        img.organizer__image(src="~static/img/vini.jpeg" alt="Vinicius Reis")
+        .organizer__title
+          | Vinicius Reis
+        .organizer__social
+          a.icon.icon--github(href="https://github.com/yyx990803" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/youyuxi" target="_blank")
+      .organizer
+        img.organizer__image(src="~static/img/juscilan.jpeg" alt="Juscilan Moreto")
+        .organizer__title
+          | Juscilan Moreto
+        .organizer__social
+          a.icon.icon--github(href="https://github.com/juscilan" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/juscilan" target="_blank")
+      .organizer
+        img.organizer__image(src="~static/img/shin.jpeg" alt="Eduardo Shinkawa")
+        .organizer__title
+          | Eduardo Shinkawa
+        .organizer__social
+          a.icon.icon--github(href="https://github.com/eshinkawa" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/dushin84" target="_blank")
 </template>
 
 <script>
@@ -53,7 +72,7 @@ export default {
 
 .organizers
   display: flex
-  justify-content: space-between
+  justify-content: space-around
   flex-wrap: wrap
 
 .section.organizers-section

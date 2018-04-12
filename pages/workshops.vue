@@ -18,8 +18,8 @@
       //- strong  8-hour long workshops
       //- |  with world-class Vue.js experts.
       //- br
-      br
-      | Workshops são vendidos separados da conferência
+      // br
+      // | Workshops são vendidos separados da conferência
       br
       br
       small
@@ -32,15 +32,15 @@
         | - Seu editor de código favorito
     .agenda
       talk(:talk="evanWorkshop", :desc-flex="7")
-        a.button(slot="ticket", disabled) Sold out
+        a.button(slot="ticket", disabled) Vendas em breve
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
           A definir
-        a.button(slot="ticket", disabled) Sold out
+        a.button(slot="ticket", disabled) Vendas em breve
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
           A definir
-        a.button(slot="ticket", disabled) Sold out
+        a.button(slot="ticket", disabled) Vendas em breve
 </template>
 
 <script>
@@ -48,7 +48,7 @@ import Talk from '../components/Talk'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Workshops'
+    title: 'Vue.js summit 2018 | Workshops'
   },
   components: { Talk },
   data () {
@@ -64,34 +64,34 @@ export default {
             twitter: "https://twitter.com/IgorHalfeld"
           }
         ],
-        authorInfo: "Senior Front-end engineer at stored",
+        authorInfo: "Front-end engineer at stored",
         description: "A definir"
       },
       blakeWorkshop: {
         type: "talk",
-        img: "/img/fabio.png",
+        img: "/img/avatar.jpg",
         topic: "A definir",
-        author: "Fábio Vedovelli",
+        author: "A definir",
         social: [
           {
-            github: "https://github.com/vedovelli",
-            twitter: "https://twitter.com/blakenewman"
+            github: "https://github.com/#",
+            twitter: "https://twitter.com/#"
           }
         ],
-        authorInfo: "Head of Front-end at octimine",
+        authorInfo: "Submissão da comunidade",
       },
       sarahWorkshop: {
         type: "talk",
-        img: "/img/vini.jpeg",
+        img: "/img/avatar.jpg",
         topic: "A definir",
-        author: "Vinicius Reis",
+        author: "A definir",
         social: [
           {
-            github: "https://github.com/vinicius73",
-            twitter: "https://twitter.com/LuizVinicius73"
+            github: "https://github.com/#",
+            twitter: "https://twitter.com/#"
           }
         ],
-        authorInfo: "Application Engineer at decision6",
+        authorInfo: "Submissão da comunidade",
       }
     }
   }

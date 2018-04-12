@@ -88,23 +88,47 @@ export default [
     startTime: "13:50",
     duration: "45min"
   },
+  // {
+  //   type: "talk",
+  //   img: "/img/lais.jpg",
+  //   topic: "A definir",
+  //   author: "Laís Tomaz",
+  //   social: [
+  //     {
+  //       "github": "https://github.com/laistomazz",
+  //       "twitter": "https://twitter.com/laistomazz"
+  //     }
+  //   ],
+  //   authorInfo: "Desenvolvedora front-end há 5 anos - AppCívico & Eokoe.",
+  //   // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
+  //   startTime: "14:40",
+  //   duration: "45min"
+  // },
   {
     type: "talk",
-    img: "/img/lais.jpg",
-    topic: "A definir",
-    author: "Laís Tomaz",
-    social: [
-      {
-        "github": "https://github.com/laistomazz",
-        "twitter": "https://twitter.com/laistomazz"
-      }
-    ],
-    authorInfo: "Desenvolvedora front-end há 5 anos - AppCívico & Eokoe.",
+    img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
+    topic: "Call4Papers",
+    author: "Palestra",
+    // social: [
+    //   {
+    //     "github": "https://github.com/chrisvfritz",
+    //     "twitter": "https://twitter.com/chrisvfritz"
+    //   }
+    // ],
+    authorInfo: "Submissão da comunidade",
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
     startTime: "14:40",
     duration: "45min"
   },
   {
+    type: "other",
+    // img: "/img/ic-happy.svg",
+    img: "/img/ic-coffee-break.svg",
+    topic: "Coffee time",
+    startTime: "15:30",
+    duration: "30min"
+  },
+  {
     type: "talk",
     img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
     topic: "Call4Papers",
@@ -117,7 +141,7 @@ export default [
     // ],
     authorInfo: "Submissão da comunidade",
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
-    startTime: "15:30",
+    startTime: "16:00",
     duration: "45min"
   },
   {
@@ -133,13 +157,13 @@ export default [
     // ],
     authorInfo: "Submissão da comunidade",
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
-    startTime: "17:15",
+    startTime: "17:45",
     duration: "45min"
   },
   {
     type: "other",
     img: "/img/ic-end-2.svg",
     topic: "Agradecimentos",
-    startTime: "18:00"
+    startTime: "18:30"
   }
 ]
