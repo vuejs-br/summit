@@ -5,23 +5,23 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Vue.js summit – Setembro 14-15, 2018 em São Paulo, Brasil | Vue.js Summit',
+    title: 'Vue.js summit 2018 – 30/08 - 01/09 em São Paulo, Brasil | Vue.js Summit',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
-      { hid: 'description', content: "First worldwide conference by Monterail and Evan You about Vue.js - the progressive JavaScript framework. Inspiring talks and workshops led by world experts." },
+      { hid: 'description', content: "A maior experiência Vue.js da america latina!" },
       { name: 'description', content: '' },
-      { property: 'og:title', content: 'Vue.js summit – Setembro 14-15, 2018 em São Paulo, Brasil | Vue.js Summit' },
-      { property: 'og:site_name', content: 'Vue.js summit – Setembro 14-15, 2018 em São Paulo, Brasil | Vue.js Summit' },
+      { property: 'og:title', content: 'Vue.js summit 2018 – 30/08 - 01/09 em São Paulo, Brasil | Vue.js Summit' },
+      { property: 'og:site_name', content: 'Vue.js summit 2018 – 30/08 - 01/09 em São Paulo, Brasil | Vue.js Summit' },
       { property: 'og:url', content: 'http://conf.vuejs.org' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:description', content: 'First worldwide conference by Monterail and Evan You about Vue.js - the progressive JavaScript framework. Inspiring talks and workshops led by world experts.' },
+      { property: 'og:description', content: 'A maior experiência Vue.js da america latina!' },
       { property: 'og:image', content: 'img/cover.png' },
       { property: 'twitter:card', content: 'summary_large_image' },
       { property: 'twitter:site', content: '@vueconf' },
       { property: 'twitter:image', content: 'http://conf.vuejs.org/img/cover.png' },
-      { property: 'twitter:title', content: 'Vue.js summit – Setembro 14-15, 2018 em São Paulo, Brasil | Vue.js Summit' },
-      { property: 'twitter:description', content: 'First worldwide conference by Monterail and Evan You about Vue.js - the progressive JavaScript framework. Inspiring talks and workshops led by world experts.' },
+      { property: 'twitter:title', content: 'Vue.js summit 2018 – 30/08 - 01/09 em São Paulo, Brasil | Vue.js Summit' },
+      { property: 'twitter:description', content: 'A maior experiência Vue.js da america latina!' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'theme-color', content: '#3EB882' }
     ],
