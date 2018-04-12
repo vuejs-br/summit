@@ -1,7 +1,7 @@
 <template lang="pug">
   .hero-banner
     .hero-banner__content
-      img(src="../assets/vueconf.svg", style="max-width: 450px; margin-bottom: 30px")
+      img(src="../assets/vueconf.svg", style="max-width: 350px; margin-bottom: 30px")
       h2.hero-banner__subheader
         strong Espaço Paraíso
         br
@@ -11,7 +11,9 @@
       h2.hero-banner__subheader.hero-banner__subheader--last
         | A maior experiência Vue.js da america latina!
       nuxt-link.post-section__button.button(to="/summary")
-        | Fique sabendo quando começar as vendas
+        | Fique sabendo
+        br
+        | quando começar as vendas
 </template>
 
 <script>
