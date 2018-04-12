@@ -6,9 +6,9 @@
 
     speakers-list(:speakers="speakers", :adjust-img-url="true")
 
-    .center
-      nuxt-link(to="/schedule")
-        button.button.speaker-button Veja a agenda!
+    // .center
+    //   nuxt-link(to="/schedule")
+    //     button.button.speaker-button Veja a agenda!
 </template>
 
 <script>
@@ -17,7 +17,7 @@ import speakers from '../content/speakers/speaker-list'
 
 export default {
   head: {
-    title: 'VueConf 2017 | Speakers'
+    title: 'Vue.js summit 2018 | Palestrantes'
   },
   components: { SpeakersList },
   data () {

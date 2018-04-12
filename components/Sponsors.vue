@@ -1,17 +1,17 @@
 <template lang="pug">
 .section.sponsors-section.center
   .container__inner
-    // h1 Sponsors
-    // .sponsors__container
-    //   .div
-    //     a(href="https://codeship.com/", target="_BLANK")
-    //       img.sponsor__image(src="~assets/img/logo_codeship_colour.svg")
-    //     a(href="https://www.nativescript.org/", target="_BLANK")
-    //       img.sponsor__image(src="~assets/img/logo_native-script.svg")
-    //     a(href="https://monaca.io/", target="_BLANK")
-    //       img.sponsor__image(src="~assets/img/monaca-logo.svg")
+    h1 Patrocinadores
+    .sponsors__container
+      .div
+        a(href="https://stored.com.br/", target="_BLANK")
+          img.partner__image(src="~assets/img/stored.png")
 
-    h2 Parceiros
+    p Patrocine essa iniciativa, tenha sua marca nesse evento
+    p e nos auxilie a tornar essa experiência inesquecível
+    a.button(href="mailto:contato@vuejssummit.com") Seja patrocinador
+
+    h2 Comunidades parceiras
     .sponsors__container
       div
         a(href="https://www.meetup.com/VueJS-SP/", target="_BLANK")
@@ -23,17 +23,21 @@
         a(href="https://www.meetup.com/Nerdzao/", target="_BLANK")
           img.partner__image(src="~assets/img/nerdzao.jpeg")
       div
+        a(href="https://www.meetup.com/Vue-js-in-Rio/", target="_BLANK")
+          img.partner__image(src="~assets/img/vuejs-rj.jpeg")
         a(href="https://www.meetup.com/Javascript-SP/", target="_BLANK")
           img.partner__image(src="~assets/img/jssp.jpeg")
         a(href="https://www.meetup.com/nodebr/", target="_BLANK")
           img.partner__image(src="~assets/img/nodebr.jpg")
+      div
         a(href="https://www.meetup.com/Frontend-Dev-SP-Meetup/", target="_BLANK")
           img.partner__image(src="~assets/img/frontend-sp.jpeg")
-        a(href="https://www.meetup.com/Vue-js-in-Rio/", target="_BLANK")
-          img.partner__image(src="~assets/img/vuejs-rj.jpeg")
+        a(href="http://www.frontinsampa.com.br/", target="_BLANK")
+          img.sponsor__image(src="~assets/img/frontinsampa.jpeg")
 
-    p Entre como parceiro, e ajude a tornar uma experiência inesquecivel.
-    a.button(href="mailto:support@vueconf.eu") Seja um parceiro
+    p Comunidades que nos auxiliarão na divulgação intensa do evento
+    p para alcançar o máximo de interessados possíveis.
+    a.button(href="mailto:contato@vuejssummit.com") Seja parceiro
 </template>
 
 <script>

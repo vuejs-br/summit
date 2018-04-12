@@ -2,12 +2,9 @@
 .cookies__container(v-show="!cookiesAccepted")
   .container__inner
     p.cookies__message
-      | We use cookies to provide you with better user experience and for statistical purposes.
-      | You can block cookies by adjusting settings on your browser. If you do not block cookies,
-      | you give your consent to use them and store them in the memory of your device. For more information see our
-      = " "
-      nuxt-link(to="/privacypolicy") Privacy Policy
-      | .
+      | Nós usamos cookies para prover uma melhor experiência e também para fins estatísticos. 
+      | Você pode bloquear ajustando as configurações do seu browser. Caso você não bloqueie,
+      | temos o consenso de usar e guardar na memória do seu dispositivo.
     button.button(type="button", @click="acceptCookies") Accept
     button.button.button--dark(type="button", @click="cookiesAccepted = true") Close
 </template>

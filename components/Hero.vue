@@ -1,15 +1,19 @@
 <template lang="pug">
   .hero-banner
     .hero-banner__content
-      img(src="../assets/vueconf.svg", width="450", style="margin-bottom: 50px")
+      img(src="../assets/vueconf.svg", style="max-width: 350px; margin-bottom: 30px")
       h2.hero-banner__subheader
         strong Espaço Paraíso
         br
         | São Paulo, Brasil • 31/08 e 01/09, 2018
+      h2.hero-banner__subheader
+        strong 3 Workshops - 6 Palestras - 480 participantes
       h2.hero-banner__subheader.hero-banner__subheader--last
         | A maior experiência Vue.js da america latina!
       nuxt-link.post-section__button.button(to="/summary")
-        | Fique sabendo quando começar as vendas
+        | Fique sabendo
+        br
+        | quando começar as vendas
 </template>
 
 <script>
