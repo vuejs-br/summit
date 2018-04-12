@@ -40,7 +40,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "npm run build && nuxt start",
+    "start": "npm run build && nuxt --port 80",
     "generate": "nuxt generate"
   }
 }
