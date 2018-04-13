@@ -2,6 +2,7 @@ export default [
   {
     "name": "Edd Yerburgh",
     "title": "Software Engineer at BBC",
+    "label": "Core Commiter",
     "img": "/img/edd.png",
     "github": "eddyerburgh",
     "twitter": "EddYerburgh",
@@ -10,6 +11,7 @@ export default [
   {
     "name": "Erick Petrucelli",
     "title": "Coordenador de Curso na Fatec Taquaritinga",
+    "label": "Community Partner",
     "img": "/img/erick.jpeg",
     "github": "ErickPetru",
     "twitter": "erickpetru",

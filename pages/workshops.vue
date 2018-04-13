@@ -3,7 +3,7 @@
   .container__inner.post-section
     h1.agenda__header Workshops
     p.subheader__description
-      strong 30 agosto
+      strong 30 de agosto
       br
       | 3 experiências com 2 horas de duração cada
       br

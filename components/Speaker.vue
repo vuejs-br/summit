@@ -21,6 +21,8 @@
   .speaker(@click="showDetails")
     img.speaker__image(:src="image", :alt="speaker.name")
     .speaker__aside
+      span.speaker__label(v-if="speaker.label")
+        | {{ speaker.label }}
       .speaker__title
         | {{ speaker.name }}
       .speaker__subtitle
@@ -74,6 +76,7 @@ export default {
 
 <style lang="sass">
 @import ~assets/css/base/helpers
+@import ~assets/css/base/variables
 @import ~assets/css/components/card
 
 .speaker__container
@@ -113,6 +116,16 @@ export default {
 
   @media #{$medium-up}
     max-width: calc(100% - 160px)
+
+  .speaker__label
+    position: absolute
+    background-color: $color-vue-green
+    padding: 5px
+    right: -20px
+    border-radius: 6px
+    font-size: 13px
+    color: $color-white
+    transform: rotate(25deg)
 
 .speaker__title
   margin-top: 12px
