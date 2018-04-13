@@ -20,7 +20,7 @@ export default {
   // components: { LogoType },
   methods: {
     trackTicketsEvent (event) {
-      ga('send', 'event', {
+      gtag('send', 'event', {
         eventAction: 'click',
         eventLabel: event.target.href,
         eventCategory: 'Tickets link - hero',
