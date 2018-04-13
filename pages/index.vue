@@ -40,7 +40,7 @@ export default {
     VenueSection
   },
   head: {
-    title: 'Vue.js summit 2018 – 31/08 - 01/09 em São Paulo, Brasil | Vue.js Summit'
+    title: 'Vue.js summit 2018 – 31/08 - 01/09 em São Paulo, Brasil'
   },
   data () {
     return {

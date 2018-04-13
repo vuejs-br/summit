@@ -77,7 +77,7 @@
     justify-content: space-between
 
   .navbar__logo
-    background-image: url('~assets/vueconf_logo.svg')
+    background-image: url('~assets/vueconf_logo.png')
     background-size: contain
     background-repeat: no-repeat
     width: 260px
