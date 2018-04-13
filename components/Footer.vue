@@ -10,6 +10,11 @@ footer.footer
           a(href="https://twitter.com/vuejssummit" target="_blank")
             span.at VuejsSummit
         li
+          | Facebook:
+          = ' '
+          a(href="https://fb.com/vuejssummit" target="_blank")
+            span.at VuejsSummit
+        li
           | Email:
           a  vuejssummit
             span.at gmail.com
