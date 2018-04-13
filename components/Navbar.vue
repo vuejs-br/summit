@@ -18,7 +18,7 @@
             | Workshops
         li.navbar-nav__item
           nuxt-link(to="/schedule")
-            | Agenda
+            | Conferência
         //- li.navbar-nav__item
         //-   nuxt-link(to="/guide")
         //-     | Guia

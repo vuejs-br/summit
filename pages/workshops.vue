@@ -3,7 +3,9 @@
   .container__inner.post-section
     h1.agenda__header Workshops
     p.subheader__description
-      strong Dia 1 (30 agosto) 9:00 – 17:30
+      strong 30 agosto
+      br
+      | 3 experiências com 2 horas de duração cada
       br
       strong 
         | Localização:
@@ -43,7 +45,7 @@
         a.button(slot="ticket", disabled) Vendas em breve
     .center
       a(href="https://docs.google.com/forms/d/e/1FAIpQLSfFP7wJhNkaYtVUwnKYLhgtW6HIr7ESVSXn_o86zbUMqTtbww/viewform", target="_BLANK")
-        button.button.speaker-button Mande sua palestra!
+        button.button.speaker-button Mande seu workshop!
 </template>
 
 <script>

@@ -3,7 +3,7 @@
   .container__inner.post-section
     h1.agenda__header Agenda da conferência
     p.subheader__description
-      strong Dia 2 de conferência 9:00 – 18:30
+      strong Dia 2 de conferência
       br
       | A agenda esta sujeita a mudanças
     .agenda

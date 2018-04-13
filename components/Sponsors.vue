@@ -7,8 +7,9 @@
         a(href="https://stored.com.br/", target="_BLANK")
           img.partner__image(src="~assets/img/stored.png")
 
-    p Patrocine essa iniciativa, tenha sua marca nesse evento
-    p e nos auxilie a tornar essa experiência inesquecível
+    p Patrocine essa iniciativa, tenha sua marca nesse evento 
+      br
+      | e nos auxilie a tornar essa experiência inesquecível.
     a.button(href="mailto:vuejssummit@gmail.com") Seja patrocinador
 
     h2 Comunidades parceiras
@@ -36,7 +37,8 @@
           img.sponsor__image(src="~assets/img/frontinsampa.jpeg")
 
     p Comunidades que nos auxiliarão na divulgação intensa do evento
-    p para alcançar o máximo de interessados possíveis.
+      br
+      | para alcançar o máximo de interessados possíveis.
     a.button(href="mailto:vuejssummit@gmail.com") Seja parceiro
 </template>
 

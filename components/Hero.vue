@@ -3,17 +3,14 @@
     .hero-banner__content
       img(src="../assets/vueconf.svg", style="max-width: 350px; margin-bottom: 30px")
       h2.hero-banner__subheader
-        strong Espaço Paraíso
+        strong Espaço Paraíso - 480 participantes
         br
         | São Paulo, Brasil • 31/08 e 01/09, 2018
-      h2.hero-banner__subheader
-        strong 3 Workshops - 6 Palestras - 480 participantes
       h2.hero-banner__subheader.hero-banner__subheader--last
         | A maior experiência Vue.js da america latina!
+      //- h2.hero-banner__subheader.hero-banner__subheader--last
       a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLScvf59n5NqwQcw70qUBZqzT3w6VwWXCREUav6DszzlTkqXwaw/viewform", target="_BLANK")
-        | Fique sabendo
-        br
-        | quando começar as vendas
+        | Pre-inscrição
 </template>
 
 <script>
