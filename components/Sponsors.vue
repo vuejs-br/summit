@@ -4,7 +4,7 @@
     h1 Patrocinadores
     .sponsors__container
       .div
-        a(href="https://stored.com.br/", target="_BLANK")
+        a(href="http://stored.com.br/", target="_BLANK")
           img.partner__image(src="~assets/img/stored.png")
 
     p Patrocine essa iniciativa, tenha sua marca nesse evento 
@@ -38,7 +38,7 @@
 
     p Comunidades que nos auxiliarão na divulgação intensa do evento
       br
-      | para alcançar o máximo de interessados possíveis.
+      | para alcançar o máximo de interessados possível.
     a.button(href="mailto:vuejssummit@gmail.com") Seja parceiro
 </template>
 

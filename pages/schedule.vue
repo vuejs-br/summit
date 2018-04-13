@@ -1,9 +1,9 @@
 <template lang="pug">
 .container
   .container__inner.post-section
-    h1.agenda__header Agenda da conferência
+    h1.agenda__header Conferência
     p.subheader__description
-      strong Dia 2 de conferência
+      strong 1 de setembro
       br
       | A agenda esta sujeita a mudanças
     .agenda
