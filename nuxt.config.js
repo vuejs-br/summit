@@ -16,7 +16,7 @@ module.exports = {
       { property: 'og:url', content: 'https://vuejssummit.com/' },
       { property: 'og:type', content: 'website' },
       { property: 'og:description', content: 'A maior experiência Vue.js da america latina!' },
-      { property: 'og:image', content: 'img/cover.png' },
+      { property: 'og:image', content: 'https://vuejssummit.com/img/cover.png' },
       { property: 'twitter:card', content: 'summary_large_image' },
       { property: 'twitter:site', content: '@vuejssummit' },
       { property: 'twitter:image', content: 'https://vuejssummit.com/img/cover.png' },
@@ -26,7 +26,7 @@ module.exports = {
       { name: 'theme-color', content: '#3EB882' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/img/logo-48.png' },
+      { rel: 'icon', type: 'image/x-icon', href: 'https://vuejssummit.com/img/logo-48.png' },
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&amp;subset=latin-ext' },
     ],

@@ -6,7 +6,7 @@
 
   <footer-section></footer-section>
   <cookies/>
-  <splash-video :videoUrl="splashVideoUrl"></splash-video>
+  <!-- <splash-video :videoUrl="splashVideoUrl"></splash-video> -->
 </div>
 </template>
 
