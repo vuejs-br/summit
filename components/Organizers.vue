@@ -50,8 +50,8 @@
         .organizer__title
           | Vinicius Reis
         .organizer__social
-          a.icon.icon--github(href="https://github.com/yyx990803" target="_blank")
-          a.icon.icon--twitter(href="https://twitter.com/youyuxi" target="_blank")
+          a.icon.icon--github(href="https://github.com/vinicius73" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/luizVinicius73" target="_blank")
       .organizer
         img.organizer__image(src="~static/img/juscilan.jpeg" alt="Juscilan Moreto")
         .organizer__title
