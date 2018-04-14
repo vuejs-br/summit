@@ -17,14 +17,6 @@ export default [
     "twitter": "erickpetru",
     "quote": "A definir"
   },
-  {
-    "name": "Igor Halfeld",
-    "title": "Front-end Engineer na stored",
-    "img": "/img/igor.jpg",
-    "github": "halfeld",
-    "twitter": "IgorHalfeld",
-    "quote": "A definir"
-  },
   // {
   //   "name": "Fabio Vedovelli",
   //   "title": "A definir",
@@ -48,6 +40,14 @@ export default [
     "github": "laistomazz",
     "twitter": "laistomazz",
     "quote": "A definir"
+  },
+  {
+    "name": "Call 4 papers",
+    "title": "A definir",
+    "img": "/img/avatar.jpg",
+    "github": "#",
+    "twitter": "#",
+    "quote": "Submissão da comunidade"
   },
   {
     "name": "Call 4 papers",

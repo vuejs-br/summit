@@ -34,6 +34,8 @@
         | - Seu editor de código favorito
     .agenda
       talk(:talk="evanWorkshop", :desc-flex="7")
+        :markdown-it
+            A definir
         a.button(slot="ticket", disabled) Vendas em breve
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
@@ -60,17 +62,16 @@ export default {
     return {
       evanWorkshop: {
         type: "talk",
-        img: "/img/igor.jpg",
-        topic: "Server side rendering com Vue.js",
-        author: "Igor Luiz",
+        img: "/img/avatar.jpg",
+        topic: "A definir",
+        author: "A definir",
         social: [
           {
-            github: "https://github.com/halfeld",
-            twitter: "https://twitter.com/IgorHalfeld"
+            github: "https://github.com/#",
+            twitter: "https://twitter.com/#"
           }
         ],
-        authorInfo: "Front-end engineer at stored",
-        description: "A definir"
+        authorInfo: "Submissão da comunidade",
       },
       blakeWorkshop: {
         type: "talk",
