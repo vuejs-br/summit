@@ -1,7 +1,7 @@
 <template lang="pug">
   .hero-banner
     .hero-banner__content
-      img(src="../assets/vueconf.svg", style="max-width: 350px; margin-bottom: 30px")
+      img(src="../assets/vueconf.png", style="max-width: 350px; margin-bottom: 30px")
       h2.hero-banner__subheader
         strong Espaço Paraíso - 480 participantes
         br
