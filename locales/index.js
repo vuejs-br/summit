@@ -1,17 +1,17 @@
 const ptMessages = require('./pt')
-const esMessages = require('./en')
+const enMessages = require('./en')
 
 module.exports = {
   locales: [
     { code: 'pt' },
-    { code: 'es' }
+    { code: 'en' }
   ],
   defaultLocale: 'pt',
   vueI18n: {
     fallbackLocale: 'pt',
     messages: {
       pt: ptMessages,
-      es: esMessages
+      en: enMessages
     }
   }
 }
