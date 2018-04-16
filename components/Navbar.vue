@@ -12,19 +12,19 @@
       ul.navbar-nav(@click="toggle")
         li.navbar-nav__item
           nuxt-link(to="/speakers")
-            | Palestrantes
+            | {{ $t('navbar.speakers') }}
         li.navbar-nav__item
           nuxt-link(to="/workshops")
-            | Workshops
+            | {{ $t('navbar.workshops') }}
         li.navbar-nav__item
           nuxt-link(to="/schedule")
-            | Conferência
+            | {{ $t('navbar.conference') }}
         //- li.navbar-nav__item
         //-   nuxt-link(to="/guide")
-        //-     | Guia
+        //-     | {{ $t('navbar.guide') }}
         //- li.navbar-nav__item
         //-   nuxt-link.button(to="/summary")
-        //-     | Sumário
+        //-     | {{ $t('navbar.summary') }}
 </template>
 
 <script>
