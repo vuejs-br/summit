@@ -3,14 +3,14 @@
     .hero-banner__content
       img(src="../assets/vueconf.svg", style="max-width: 350px; margin-bottom: 30px")
       h2.hero-banner__subheader
-        strong Espaço Paraíso - 480 participantes
+        strong Espaço Paraíso - 480 {{ $t('hero.participants') }}
         br
-        | São Paulo, Brasil • 31/08 e 01/09, 2018
+        | São Paulo, {{ $t('hero.country') }} • 31/08 e 01/09, 2018
       h2.hero-banner__subheader.hero-banner__subheader--last
         | {{ $t('description') }}
       //- h2.hero-banner__subheader.hero-banner__subheader--last
       a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLScvf59n5NqwQcw70qUBZqzT3w6VwWXCREUav6DszzlTkqXwaw/viewform", target="_BLANK")
-        | Pre-inscrição
+        | {{ $t('hero.button') }}
 </template>
 
 <script>

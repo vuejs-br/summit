@@ -6,6 +6,11 @@ module.exports = {
     guide: 'Guia',
     summary: 'Sumário'
   },
+  hero: {
+    participants: 'Participantes',
+    country: 'Brasil',
+    button: 'Pré-inscrição',
+  },
   description: 'A maior experiência Vue.js da america latina!',
   footer: {
     description1: 'Produzido e organizado pela ',
