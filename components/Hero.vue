@@ -11,7 +11,7 @@
       //- h2.hero-banner__subheader.hero-banner__subheader--last
       a.post-section__button.button.post-section__first-button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
         | Inscrição conferência
-      a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLSfFP7wJhNkaYtVUwnKYLhgtW6HIr7ESVSXn_o86zbUMqTtbww/viewform", target="_BLANK")
+      a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLScvf59n5NqwQcw70qUBZqzT3w6VwWXCREUav6DszzlTkqXwaw/viewform", target="_BLANK")
         | Inscrição workshop
 </template>
 
