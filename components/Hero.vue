@@ -9,8 +9,10 @@
       h2.hero-banner__subheader.hero-banner__subheader--last
         | A maior experiência Vue.js da america latina!
       //- h2.hero-banner__subheader.hero-banner__subheader--last
-      a.post-section__button.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
-        | Inscrição
+      a.post-section__button.button.post-section__first-button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
+        | Inscrição conferência
+      a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLScvf59n5NqwQcw70qUBZqzT3w6VwWXCREUav6DszzlTkqXwaw/viewform", target="_BLANK")
+        | Inscrição workshop
 </template>
 
 <script>
@@ -47,8 +49,12 @@ export default {
   @media only screen and (min-width: 1900px)
     background-size: cover
 
-  .post-section__button
-    margin: 25px 0
+
+.post-section__first-button
+  margin-right: 0
+
+  @media #{$medium-up}
+    margin-right: 10px
 
 .hero-banner__content
   padding-top: 100px
