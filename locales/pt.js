@@ -32,6 +32,11 @@ module.exports = {
     organizers: 'Organizadores',
     contributors: 'Contribuidores'
   },
+  speakers: {
+    title: 'Palestrantes',
+    more: 'Saiba mais',
+    button: 'Mande sua palestra!'
+  },
   footer: {
     description1: 'Produzido e organizado pela ',
     description2: 'comunidade brasileira de Vue.js.',

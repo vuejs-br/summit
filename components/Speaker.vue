@@ -32,7 +32,7 @@
         a.icon.icon--github(@click.stop="", v-if="speaker.github", :href="`https://github.com/${speaker.github}`" target="_blank")
         a.icon.icon--twitter(@click.stop="", v-if="speaker.twitter", :href="`https://twitter.com/${speaker.twitter}`" target="_blank")
 
-      button.button-secondary(@click.stop="showDetails") Learn more
+      button.button-secondary(@click.stop="showDetails") {{ $t('speakers.more') }}
 </template>
 
 <script>

@@ -32,6 +32,11 @@ module.exports = {
     organizers: 'Organizers',
     contributors: 'Contributors'
   },
+  speakers: {
+    title: 'Speakers',
+    more: 'Learn more',
+    button: 'Send your talk!'
+  },
   footer: {
     description1: 'Produced and organized by the ',
     description2: 'Brazilian community of Vue.js.',
