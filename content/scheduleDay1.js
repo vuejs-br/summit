@@ -3,15 +3,15 @@ export default [
     type: "other",
     // img: "/img/ic-happy.svg",
     img: "/img/ic-coffee-break.svg",
-    topic: "Recepção / Coffee time",
+    topic: ["Recepção / Coffee time", "Reception / Coffee time"],
     startTime: "9:00",
     duration: "30min"
   },
   {
     type: "talk",
     img: "/img/ic-happy.svg",
-    topic: "Introdução",
-    author: "Patrocinadores",
+    topic: ["Introdução", "Introduction"],
+    author: ["Patrocinadores", "Sponsors"],
     authorInfo: "-----------------------------------",
     startTime: "9:30",
     duration: "20min"
@@ -21,7 +21,7 @@ export default [
     img: ["/img/thaissa.jpeg", "/img/igor.jpg"],
     topic: "keynote",
     author: "Thaíssa Candella e Igor Halfeld",
-    authorInfo: "Organizadores",
+    authorInfo: ["Organizadores", "Organizers"],
     startTime: "9:50",
     duration: "1h"
   },
@@ -29,14 +29,14 @@ export default [
     type: "talk",
     img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
     topic: "Call4Papers",
-    author: "Palestra",
+    author: ["Palestra", "Lecture"],
     // social: [
     //   {
     //     "github": "https://github.com/chrisvfritz",
     //     "twitter": "https://twitter.com/chrisvfritz"
     //   }
     // ],
-    authorInfo: "Submissão da comunidade",
+    authorInfo: ["Submissão da comunidade", "Community submission"],
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
     startTime: "10:50",
     duration: "45min"
@@ -45,14 +45,14 @@ export default [
     type: "talk",
     img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
     topic: "Call4Papers",
-    author: "Palestra",
+    author: ["Palestra", "Lecture"],
     // social: [
     //   {
     //     "github": "https://github.com/chrisvfritz",
     //     "twitter": "https://twitter.com/chrisvfritz"
     //   }
     // ],
-    authorInfo: "Submissão da comunidade",
+    authorInfo: ["Submissão da comunidade", "Community submission"],
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
     startTime: "11:40",
     duration: "45min"
@@ -60,7 +60,7 @@ export default [
   {
     type: "other",
     img: "/img/ic-lunch-break.svg",
-    topic: "Almoço",
+    topic: ["Almoço", "Lunch"],
     startTime: "12:25",
     duration: "1h 25min"
   },
@@ -76,14 +76,14 @@ export default [
     type: "talk",
     img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
     topic: "Call4Papers",
-    author: "Palestra",
+    author: ["Palestra", "Lecture"],
     // social: [
     //   {
     //     "github": "https://github.com/chrisvfritz",
     //     "twitter": "https://twitter.com/chrisvfritz"
     //   }
     // ],
-    authorInfo: "Submissão da comunidade",
+    authorInfo: ["Submissão da comunidade", "Community submission"],
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
     startTime: "13:50",
     duration: "45min"
@@ -108,14 +108,14 @@ export default [
     type: "talk",
     img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
     topic: "Call4Papers",
-    author: "Palestra",
+    author: ["Palestra", "Lecture"],
     // social: [
     //   {
     //     "github": "https://github.com/chrisvfritz",
     //     "twitter": "https://twitter.com/chrisvfritz"
     //   }
     // ],
-    authorInfo: "Submissão da comunidade",
+    authorInfo: ["Submissão da comunidade", "Community submission"],
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
     startTime: "14:40",
     duration: "45min"
@@ -132,14 +132,14 @@ export default [
     type: "talk",
     img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
     topic: "Call4Papers",
-    author: "Palestra",
+    author: ["Palestra", "Lecture"],
     // social: [
     //   {
     //     "github": "https://github.com/chrisvfritz",
     //     "twitter": "https://twitter.com/chrisvfritz"
     //   }
     // ],
-    authorInfo: "Submissão da comunidade",
+    authorInfo: ["Submissão da comunidade", "Community submission"],
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
     startTime: "16:00",
     duration: "45min"
@@ -148,14 +148,14 @@ export default [
     type: "talk",
     img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
     topic: "Call4Papers",
-    author: "Palestra",
+    author: ["Palestra", "Lecture"],
     // social: [
     //   {
     //     "github": "https://github.com/chrisvfritz",
     //     "twitter": "https://twitter.com/chrisvfritz"
     //   }
     // ],
-    authorInfo: "Submissão da comunidade",
+    authorInfo: ["Submissão da comunidade", "Community submission"],
     // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
     startTime: "17:45",
     duration: "45min"
@@ -163,7 +163,7 @@ export default [
   {
     type: "other",
     img: "/img/ic-end-2.svg",
-    topic: "Agradecimentos",
+    topic: ["Agradecimentos", "Thanks"],
     startTime: "18:30"
   }
 ]

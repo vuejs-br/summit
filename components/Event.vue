@@ -17,15 +17,15 @@
       .event__header-content
         .event__author-container(v-if="event.author")
           div
-            .event__author {{ event.author }}
-            .event__author-info {{ event.authorInfo }}
+            .event__author {{ translate(event.author) }}
+            .event__author-info {{ translate(event.authorInfo) }}
           .event__social__container
             .event__social(v-for="social of event.social")
               a.icon.icon--github(v-if="social.github", :href="social.github" target="_blank")
               a.icon.icon--gitlab(v-if="social.gitlab", :href="social.gitlab" target="_blank")
               a.icon.icon--twitter(v-if="social.twitter", :href="social.twitter" target="_blank")
         .event__duration(v-if="event.duration") {{ event.duration }}
-        h2.event__topic(:class="event.type=='other' && 'event__topic--other'") {{ event.topic }}
+        h2.event__topic(:class="event.type=='other' && 'event__topic--other'") {{ translate(event.topic) }}
     .event__accordion
       .event__description(v-if="event.description")
         slot
@@ -53,12 +53,20 @@ export default {
   props: ['event', 'descFlex'],
   data () {
     return {
-      isOpen: false
+      isOpen: false,
+      lang: 0
     }
+  },
+  mounted () {
+    this.lang = this.$i18n.locale == 'en' ? 1 : 0
   },
   methods: {
     toggle () {
       this.isOpen = !this.isOpen
+    },
+
+    translate (data) {
+      return Array.isArray(data) ? data[this.lang] : data 
     }
   },
   computed: {
@@ -67,9 +75,14 @@ export default {
     },
     id () {
       if(this.event.author) {
-        return this.event.author.toLowerCase().split(' ').join('-')
+        return Array.isArray(this.event.author)
+          ? this.event.author[this.lang].toLowerCase().split(' ').join('-')
+          : this.event.author.toLowerCase().split(' ').join('-')
       }
-      return this.event.topic.toLowerCase().split(' ').join('-')
+
+      return Array.isArray(this.event.topic)
+          ? this.event.topic[this.lang].toLowerCase().split(' ').join('-')
+          : this.event.topic.toLowerCase().split(' ').join('-')
     },
     isNotExpandable () {
       return !this.event.description
