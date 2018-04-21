@@ -6,13 +6,15 @@ module.exports = {
     guide: 'Guide',
     summary: 'Summary'
   },
-  hero: {
-    participants: 'Participants',
-    country: 'Brazil',
-    button1: 'Conference registration',
-    button2: 'Workshop registration',
+  home: {
+    hero: {
+      participants: 'Participants',
+      country: 'Brazil',
+      button1: 'Conference registration',
+      button2: 'Workshop registration',
+      description: 'The biggest Vue.js experience in Latin America!',
+    },
   },
-  description: 'The biggest Vue.js experience in Latin America!',
   footer: {
     description1: 'Produced and organized by the ',
     description2: 'Brazilian community of Vue.js.',

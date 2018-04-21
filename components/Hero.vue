@@ -3,16 +3,16 @@
     .hero-banner__content
       img(src="../assets/vueconf.png", style="max-width: 350px; margin-bottom: 30px")
       h2.hero-banner__subheader
-        strong Espaço Paraíso - 480 {{ $t('hero.participants') }}
+        strong Espaço Paraíso - 480 {{ $t('home.hero.participants') }}
         br
-        | São Paulo, {{ $t('hero.country') }} • 31/08 e 01/09, 2018
+        | São Paulo, {{ $t('home.hero.country') }} • 31/08 e 01/09, 2018
       h2.hero-banner__subheader.hero-banner__subheader--last
-        | {{ $t('description') }}
+        | {{ $t('home.hero.description') }}
       //- h2.hero-banner__subheader.hero-banner__subheader--last
       a.post-section__button.button.post-section__first-button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
-        | {{ $t('hero.button1') }}
+        | {{ $t('home.hero.button1') }}
       a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLScvf59n5NqwQcw70qUBZqzT3w6VwWXCREUav6DszzlTkqXwaw/viewform", target="_BLANK")
-        | {{ $t('hero.button2') }}
+        | {{ $t('home.hero.button2') }}
 </template>
 
 <script>
