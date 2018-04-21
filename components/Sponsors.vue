@@ -1,18 +1,16 @@
 <template lang="pug">
 .section.sponsors-section.center
   .container__inner
-    h1 Patrocinadores
+    h1 {{ $t('home.sponsors.title1') }}
     .sponsors__container
       .div
         a(href="http://stored.com.br/", target="_BLANK")
           img.partner__image(src="~assets/img/stored.png")
 
-    p Patrocine essa iniciativa, tenha sua marca nesse evento 
-      br
-      | e nos auxilie a tornar essa experiência inesquecível.
-    a.button(href="mailto:vuejssummit@gmail.com") Seja patrocinador
+    p("v-html"="$t('home.sponsors.description1')")
+    a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button1') }}
 
-    h2 Comunidades parceiras
+    h2 {{ $t('home.sponsors.title2') }}
     .sponsors__container
       div
         a(href="https://www.meetup.com/VueJS-SP/", target="_BLANK")
@@ -38,10 +36,8 @@
         a(href="https://phpsp.org.br/", target="_BLANK")
           img.partner__image(src="~assets/img/phpsp.jpg")
 
-    p Comunidades que nos auxiliarão na divulgação intensa do evento
-      br
-      | para alcançar o máximo de interessados possível.
-    a.button(href="mailto:vuejssummit@gmail.com") Seja parceiro
+    p("v-html"="$t('home.sponsors.description2')")
+    a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button2') }}
 </template>
 
 <script>
