@@ -4,15 +4,15 @@
     .talk__image-container
       .talk__images
         img.talk__image(v-for="image of images", :src="image", :alt="talk.author")
-      .talk__author {{ talk.author }}
-      .talk__author-info {{ talk.authorInfo }}
+      .talk__author {{ translate(talk.author) }}
+      .talk__author-info {{ translate(talk.authorInfo) }}
       .talk__social__container
         .talk__social(v-for="social of talk.social")
           a.icon.icon--github(v-if="social.github", :href="social.github" target="_blank")
           a.icon.icon--gitlab(v-if="social.gitlab", :href="social.gitlab" target="_blank")
           a.icon.icon--twitter(v-if="social.twitter", :href="social.twitter" target="_blank")
     .talk__description(:style="{ flex: descFlex }")
-      h2.talk__topic {{ talk.topic }}
+      h2.talk__topic {{ translate(talk.topic) }}
       slot
         p {{ talk.description }}
       div.center
@@ -23,12 +23,27 @@
 export default {
   name: 'Talk',
   props: ['talk', 'descFlex'],
+  data() {
+    return {
+      lang: 0
+    }
+  },
+  mounted () {
+    this.lang = this.$i18n.locale == 'en' ? 1 : 0
+  },
+  methods: {
+    translate (data) {
+      return Array.isArray(data) ? data[this.lang] : data 
+    }
+  },
   computed: {
     images () {
       return Array.isArray(this.talk.img) ? this.talk.img : [this.talk.img]
     },
     id () {
-      return this.talk.author.toLowerCase().split(' ').join('-')
+      return Array.isArray(this.talk.author)
+        ? this.talk.author[this.lang].toLowerCase().split(' ').join('-')
+        : this.talk.author.toLowerCase().split(' ').join('-')
     }
   }
 }

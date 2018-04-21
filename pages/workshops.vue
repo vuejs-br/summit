@@ -3,12 +3,12 @@
   .container__inner.post-section
     h1.agenda__header Workshops
     p.subheader__description
-      strong 31 de agosto
+      strong {{ $t('workshops.date') }}
       br
-      | 3 experiências com 2 horas de duração cada
+      | {{ $t('workshops.description') }}
       br
       strong 
-        | Localização:
+        | {{ $t('workshops.location') }}
         a(
           href="https://www.google.com.br/maps/place/Salas+Brasil+-+Paraiso/@-23.5716738,-46.6431551,15z/data=!4m5!3m4!1s0x0:0x3c65b3e7403c5a44!8m2!3d-23.5716738!4d-46.6431551",
           target="_BLANK")  Espaço Paraíso
@@ -25,29 +25,29 @@
       br
       br
       small
-        strong Requerimentos:
+        strong {{ $t('workshops.requeriments.title') }}
         br
-        | - Notebook e o carregador
+        | {{ $t('workshops.requeriments.line1') }}
         br
-        | - Ambiente de desenvolvimento pronto (Node.js + npm/yarn)
+        | {{ $t('workshops.requeriments.line2') }}
         br
-        | - Seu editor de código favorito
+        | {{ $t('workshops.requeriments.line3') }}
     .agenda
       talk(:talk="evanWorkshop", :desc-flex="7")
         :markdown-it
             A definir
-        a.button(slot="ticket", disabled) Vendas em breve
+        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
           A definir
-        a.button(slot="ticket", disabled) Vendas em breve
+        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
           A definir
-        a.button(slot="ticket", disabled) Vendas em breve
+        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
     .center
       a(href="https://docs.google.com/forms/d/e/1FAIpQLSfFP7wJhNkaYtVUwnKYLhgtW6HIr7ESVSXn_o86zbUMqTtbww/viewform", target="_BLANK")
-        button.button.speaker-button Mande seu workshop!
+        button.button.speaker-button {{ $t('workshops.button') }}
 </template>
 
 <script>
@@ -63,41 +63,41 @@ export default {
       evanWorkshop: {
         type: "talk",
         img: "/img/avatar.jpg",
-        topic: "A definir",
-        author: "A definir",
+        topic: ["A definir", "To be defined"],
+        author: ["A definir", "To be defined"],
         social: [
           {
             github: "https://github.com/#",
             twitter: "https://twitter.com/#"
           }
         ],
-        authorInfo: "Submissão da comunidade",
+        authorInfo: ["Submissão da comunidade", "Community submission"],
       },
       blakeWorkshop: {
         type: "talk",
         img: "/img/avatar.jpg",
-        topic: "A definir",
-        author: "A definir",
+        topic: ["A definir", "To be defined"],
+        author: ["A definir", "To be defined"],
         social: [
           {
             github: "https://github.com/#",
             twitter: "https://twitter.com/#"
           }
         ],
-        authorInfo: "Submissão da comunidade",
+        authorInfo: ["Submissão da comunidade", "Community submission"],
       },
       sarahWorkshop: {
         type: "talk",
         img: "/img/avatar.jpg",
-        topic: "A definir",
-        author: "A definir",
+        topic: ["A definir", "To be defined"],
+        author: ["A definir", "To be defined"],
         social: [
           {
             github: "https://github.com/#",
             twitter: "https://twitter.com/#"
           }
         ],
-        authorInfo: "Submissão da comunidade",
+        authorInfo: ["Submissão da comunidade", "Community submission"],
       }
     }
   }

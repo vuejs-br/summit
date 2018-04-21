@@ -37,6 +37,21 @@ module.exports = {
     more: 'Learn more',
     button: 'Send your talk!'
   },
+  workshops: {
+    date: 'August, 31',
+    description: '3 experiments with 2 hours each',
+    location: 'Location:',
+    requeriments: {
+      title: 'Requeriments:',
+      line1: '- Notebook and the charger',
+      line2: '- Development environment ready (Node.js + npm / yarn)',
+      line3: '- Your favorite code editor',
+    },
+    schedule: {
+      button: 'Sales coming soon'
+    },
+    button: 'Send your workshop!'
+  },
   schedule: {
     title: 'Conference',
     date: 'September 1st',
