@@ -37,6 +37,11 @@ module.exports = {
     more: 'Learn more',
     button: 'Send your talk!'
   },
+  schedule: {
+    title: 'Conference',
+    date: 'September 1st',
+    description: 'The agenda is subject to change'
+  },
   footer: {
     description1: 'Produced and organized by the ',
     description2: 'Brazilian community of Vue.js.',

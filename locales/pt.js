@@ -37,6 +37,11 @@ module.exports = {
     more: 'Saiba mais',
     button: 'Mande sua palestra!'
   },
+  schedule: {
+    title: 'Conferência',
+    date: '1 de setembro',
+    description: 'A agenda esta sujeita a mudanças'
+  },
   footer: {
     description1: 'Produzido e organizado pela ',
     description2: 'comunidade brasileira de Vue.js.',
