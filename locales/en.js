@@ -20,6 +20,14 @@ module.exports = {
       address: 'Address:',
       other: 'Near the subways:',
       button: 'See on the map'
+    },
+    sponsors: {
+      title1: 'Sponsors',
+      description1: 'Sponsor this initiative, have your mark on this event <br> and help us make this experience unforgettable.',
+      button1: 'Be sponsor',
+      title2: 'Partner communities',
+      description2: 'Communities that will assist us in the intense dissemination of the event <br> to reach as max interested parties as possible.',
+      button2: 'Be partner',
     }
   },
   footer: {
