@@ -11,14 +11,22 @@
     nav
       ul.navbar-nav(@click="toggle")
         li.navbar-nav__item
-          nuxt-link(to="/speakers")
+          nuxt-link(:to="localePath('speakers')")
             | {{ $t('navbar.speakers') }}
         li.navbar-nav__item
-          nuxt-link(to="/workshops")
+          nuxt-link(:to="localePath('workshops')")
             | {{ $t('navbar.workshops') }}
         li.navbar-nav__item
-          nuxt-link(to="/schedule")
+          nuxt-link(:to="localePath('schedule')")
             | {{ $t('navbar.conference') }}
+        li.navbar-nav__item
+          nuxt-link(
+            v-for="(locale, index) in $i18n.locales"
+            v-if="locale.code !== $i18n.locale"
+            :key="index"
+            :exact="true"
+            :to="switchLocalePath(locale.code)"
+          ) {{ $i18n.locale }}
         //- li.navbar-nav__item
         //-   nuxt-link(to="/guide")
         //-     | {{ $t('navbar.guide') }}
