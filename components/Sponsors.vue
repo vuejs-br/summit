@@ -35,6 +35,8 @@
           img.partner__image(src="~assets/img/frontend-sp.jpeg")
         a(href="http://www.frontinsampa.com.br/", target="_BLANK")
           img.sponsor__image(src="~assets/img/frontinsampa.jpeg")
+        a(href="https://phpsp.org.br/", target="_BLANK")
+          img.partner__image(src="~assets/img/phpsp.jpg")
 
     p Comunidades que nos auxiliarão na divulgação intensa do evento
       br
