@@ -8,25 +8,25 @@
           .speaker__title
             | {{ speaker.name }}
           .speaker__subtitle
-            | {{ speaker.title }}
+            | {{ translate(speaker.title) }}
           .speaker__social
             a.icon.icon--github(v-if="speaker.github", :href="`https://github.com/${speaker.github}`" target="_blank")
             a.icon.icon--gitlab(v-if="speaker.gitlab", :href="`https://gitlab.com/${speaker.gitlab}`" target="_blank")
             a.icon.icon--twitter(v-if="speaker.twitter", :href="`https://twitter.com/${speaker.twitter}`" target="_blank")
         .speaker__bio
-          | {{ speaker.bio }}
+          | {{ translate(speaker.bio) }}
         blockquote.speaker__quote(v-if="speaker.quote")
-          | {{ speaker.quote }}
+          | {{ translate(speaker.quote) }}
           cite {{ speaker.name }}
   .speaker(@click="showDetails")
     img.speaker__image(:src="image", :alt="speaker.name")
     .speaker__aside
       span.speaker__label(v-if="speaker.label")
-        | {{ speaker.label }}
+        | {{ translate(speaker.label) }}
       .speaker__title
         | {{ speaker.name }}
       .speaker__subtitle
-        | {{ speaker.title }}
+        | {{ translate(speaker.title) }}
       .speaker__social
         a.icon.icon--gitlab(@click.stop="", v-if="speaker.gitlab", :href="`https://gitlab.com/${speaker.gitlab}`" target="_blank")
         a.icon.icon--github(@click.stop="", v-if="speaker.github", :href="`https://github.com/${speaker.github}`" target="_blank")
@@ -52,8 +52,12 @@ export default {
   },
   data () {
     return {
-      modalVisible: false
+      modalVisible: false,
+      lang: 0
     }
+  },
+  mounted () {
+    this.lang = this.$i18n.locale == 'en' ? 1 : 0
   },
   methods: {
     showDetails () {
@@ -62,6 +66,9 @@ export default {
         eventAction: 'click',
         eventCategory: `Speaker details ${this.speaker.name}`
       })
+    },
+    translate (data) {
+      return Array.isArray(data) ? data[this.lang] : data 
     }
   },
   computed: {
