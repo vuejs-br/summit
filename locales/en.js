@@ -28,7 +28,9 @@ module.exports = {
       title2: 'Partner communities',
       description2: 'Communities that will assist us in the intense dissemination of the event <br> to reach as max interested parties as possible.',
       button2: 'Be partner',
-    }
+    },
+    organizers: 'Organizers',
+    contributors: 'Contributors'
   },
   footer: {
     description1: 'Produced and organized by the ',
