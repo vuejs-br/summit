@@ -1,7 +1,7 @@
 <template lang="pug">
 .navbar(:class="isOpen && 'open'")
   .navbar__container
-    nuxt-link.navbar__logo(to="/")
+    nuxt-link.navbar__logo(:to="localePath('index')")
 
     button.navbar__burger(type="button", @click="toggle")
         .bar
