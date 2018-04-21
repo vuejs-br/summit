@@ -3,29 +3,29 @@
   .nav-target#venue
   .container__inner
     h1
-      | Local
+      | {{ $t('home.place.title') }}
     .half
       img(src="~assets/img/nhcinema.png" alt="New Horizons Cinema, Wrocław")
     .half.text-left
       h2: strong Espaço Paraíso
       p
-        | {{ $t('home.local.description1') }}
+        | {{ $t('home.place.description1') }}
         strong  Espaço Paraíso
-        | , {{ $t('home.local.description2') }} Av. Paulista.
+        | , {{ $t('home.place.description2') }} Av. Paulista.
 
       p
-        strong {{ $t('home.local.address') }}
+        strong {{ $t('home.place.address') }}
         br
         | Av. Bernardino de Campos, 79
         br
         | Paraíso, São Paulo - SP.
       p
-        strong {{ $t('home.local.other') }}
+        strong {{ $t('home.place.other') }}
         br
         | Vergueiro, Paraíso e Brigadeiro.
       a.button.button--dark(
         href="https://www.google.com.br/maps/place/Salas+Brasil+-+Paraiso/@-23.5716738,-46.6431551,15z/data=!4m5!3m4!1s0x0:0x3c65b3e7403c5a44!8m2!3d-23.5716738!4d-46.6431551",
-        target="_BLANK") {{ $t('home.local.button') }}
+        target="_BLANK") {{ $t('home.place.button') }}
 </template>
 
 <script>
