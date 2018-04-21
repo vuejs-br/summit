@@ -14,6 +14,13 @@ module.exports = {
       button2: 'Workshop registration',
       description: 'The biggest Vue.js experience in Latin America!',
     },
+    local: {
+      description1: 'The experience will happen in the',
+      description2: 'place near',
+      address: 'Address:',
+      other: 'Near the subways:',
+      button: 'See on the map'
+    }
   },
   footer: {
     description1: 'Produced and organized by the ',
