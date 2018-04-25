@@ -12,6 +12,7 @@
     .agenda
       talk(
         v-for="talk of talks",
+        key="index"
         :talk="talk"
       )
 </template>
