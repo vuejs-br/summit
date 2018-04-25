@@ -3,14 +3,16 @@
     .hero-banner__content
       img(src="../assets/vueconf.png", style="max-width: 350px; margin-bottom: 30px")
       h2.hero-banner__subheader
-        strong Espaço Paraíso - 480 participantes
+        strong Espaço Paraíso - 480 {{ $t('home.hero.participants') }}
         br
-        | São Paulo, Brasil • 31/08 e 01/09, 2018
+        | São Paulo, {{ $t('home.hero.country') }} • 31/08 e 01/09, 2018
       h2.hero-banner__subheader.hero-banner__subheader--last
-        | A maior experiência Vue.js da america latina!
+        | {{ $t('home.hero.description') }}
       //- h2.hero-banner__subheader.hero-banner__subheader--last
+      a.post-section__button.button.post-section__first-button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
+        | {{ $t('home.hero.button1') }}
       a.post-section__button.button(href="https://docs.google.com/forms/d/e/1FAIpQLScvf59n5NqwQcw70qUBZqzT3w6VwWXCREUav6DszzlTkqXwaw/viewform", target="_BLANK")
-        | Pre-inscrição
+        | {{ $t('home.hero.button2') }}
 </template>
 
 <script>
@@ -47,8 +49,12 @@ export default {
   @media only screen and (min-width: 1900px)
     background-size: cover
 
-  .post-section__button
-    margin: 25px 0
+
+.post-section__first-button
+  margin-right: 0
+
+  @media #{$medium-up}
+    margin-right: 10px
 
 .hero-banner__content
   padding-top: 100px

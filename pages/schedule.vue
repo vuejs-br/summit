@@ -1,11 +1,11 @@
 <template lang="pug">
 .container
   .container__inner.post-section
-    h1.agenda__header Conferência
+    h1.agenda__header {{ $t('schedule.title') }}
     p.subheader__description
-      strong 1 de setembro
+      strong {{ $t('schedule.date') }}
       br
-      | A agenda esta sujeita a mudanças
+      | {{ $t('schedule.description') }}
     .agenda
       event(
         v-for="event of eventsDay1",
@@ -37,6 +37,10 @@ export default {
       eventsDay1
       // eventsDay2
     }
+  },
+
+  mounted() {
+    console.log(this.$i18n.locale)
   }
 }
 </script>

@@ -3,7 +3,7 @@ footer.footer
   .container__inner
     .footer__top
       ul.footer__list
-        h3.footer__header Contato
+        h3.footer__header {{ $t('footer.contact') }}
         li
           | Twitter:
           = ' '
@@ -19,14 +19,16 @@ footer.footer
           a  vuejssummit
             span.at gmail.com
       ul.footer__list.footer__list--small
-        h3.footer__header Links úteis
-        li: nuxt-link(to="/speakers") Palestrantes
-        li: nuxt-link(to="/schedule") Agenda
-        li: nuxt-link(to="/workshops") Workshops
+        h3.footer__header {{ $t('footer.links.description') }}
+        li: nuxt-link(to="/speakers") {{ $t('footer.links.speakers') }}
+        li: nuxt-link(to="/schedule") {{ $t('footer.links.schedule') }}
+        li: nuxt-link(to="/workshops") {{ $t('footer.links.workshops') }}
 
     .footer__bottom
-      | Produzido e organizado pela
-      strong  comunidade brasileira de Vue.js.
+      | {{ $t('footer.description1') }}
+      strong {{ $t('footer.description2') }}
+      //- | Produzido e organizado pela
+      //- strong  comunidade brasileira de Vue.js.
       //- |  and
       //- a(href="https://monterail.com"): strong.footer__logo
       //- .footer__copyright

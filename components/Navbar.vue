@@ -1,7 +1,7 @@
 <template lang="pug">
 .navbar(:class="isOpen && 'open'")
   .navbar__container
-    nuxt-link.navbar__logo(to="/")
+    nuxt-link.navbar__logo(:to="localePath('index')")
 
     button.navbar__burger(type="button", @click="toggle")
         .bar
@@ -11,20 +11,28 @@
     nav
       ul.navbar-nav(@click="toggle")
         li.navbar-nav__item
-          nuxt-link(to="/speakers")
-            | Palestrantes
+          nuxt-link(:to="localePath('speakers')")
+            | {{ $t('navbar.speakers') }}
         li.navbar-nav__item
-          nuxt-link(to="/workshops")
-            | Workshops
+          nuxt-link(:to="localePath('workshops')")
+            | {{ $t('navbar.workshops') }}
         li.navbar-nav__item
-          nuxt-link(to="/schedule")
-            | Conferência
+          nuxt-link(:to="localePath('schedule')")
+            | {{ $t('navbar.conference') }}
+        li.navbar-nav__item
+          nuxt-link(
+            v-for="(locale, index) in $i18n.locales"
+            v-if="locale.code !== $i18n.locale"
+            :key="index"
+            :exact="true"
+            :to="switchLocalePath(locale.code)"
+          ) {{ $i18n.locale }}
         //- li.navbar-nav__item
         //-   nuxt-link(to="/guide")
-        //-     | Guia
+        //-     | {{ $t('navbar.guide') }}
         //- li.navbar-nav__item
         //-   nuxt-link.button(to="/summary")
-        //-     | Sumário
+        //-     | {{ $t('navbar.summary') }}
 </template>
 
 <script>

@@ -2,13 +2,13 @@
 .container
   .container__inner.post-section
     h1
-      | Palestrantes
+      | {{ $t('speakers.title') }}
 
     speakers-list(:speakers="speakers", :adjust-img-url="true")
 
     .center
       a(href="https://docs.google.com/forms/d/e/1FAIpQLSfFP7wJhNkaYtVUwnKYLhgtW6HIr7ESVSXn_o86zbUMqTtbww/viewform", target="_BLANK")
-        button.button.speaker-button Mande sua palestra!
+        button.button.speaker-button {{ $t('speakers.button') }}
 </template>
 
 <script>

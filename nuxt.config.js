@@ -1,6 +1,10 @@
 const path = require('path')
+const locale = require('./locales')
 
 module.exports = {
+  modules: [
+    ['nuxt-i18n', locale]
+  ],
   /*
   ** Headers of the page
   */

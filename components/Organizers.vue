@@ -2,7 +2,7 @@
 .section.organizers-section.post-section
   .container__inner
     h1
-      | Organizadores
+      | {{ $t('home.organizers') }}
 
     .organizers
       .organizer
@@ -20,7 +20,7 @@
           a.icon.icon--github(href="https://github.com/shentao" target="_blank")
           a.icon.icon--twitter(href="https://twitter.com/damiandulisz" target="_blank")
     h1
-      | Contribuidores
+      | {{ $t('home.contributors') }}
 
     .organizers
       .organizer
