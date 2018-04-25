@@ -26,7 +26,7 @@
             :key="index"
             :exact="true"
             :to="switchLocalePath(locale.code)"
-          ) {{ $i18n.locale }}
+          ) {{ loadCorrentCheckoutLang($i18n.locale) }}
         //- li.navbar-nav__item
         //-   nuxt-link(to="/guide")
         //-     | {{ $t('navbar.guide') }}
@@ -43,6 +43,9 @@
       }
     },
     methods: {
+      loadCorrentCheckoutLang (lang) {
+        return (lang === 'pt') ? 'en' : 'pt'
+      },
       toggle () {
         this.isOpen = !this.isOpen
       },
