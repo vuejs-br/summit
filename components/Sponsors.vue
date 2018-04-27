@@ -28,6 +28,8 @@
           img.partner__image(src="~assets/img/jssp.jpeg")
         a(href="https://www.meetup.com/nodebr/", target="_BLANK")
           img.partner__image(src="~assets/img/nodebr.jpg")
+        a(href="https://www.meetup.com/vuefloripa/", target="_BLANK")
+          img.partner__image(src="~assets/img/vuefloripa.png")
       div
         a(href="https://www.meetup.com/Frontend-Dev-SP-Meetup/", target="_BLANK")
           img.partner__image(src="~assets/img/frontend-sp.jpeg")
