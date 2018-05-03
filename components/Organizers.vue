@@ -17,8 +17,8 @@
         .organizer__title
           | Igor Halfeld
         .organizer__social
-          a.icon.icon--github(href="https://github.com/shentao" target="_blank")
-          a.icon.icon--twitter(href="https://twitter.com/damiandulisz" target="_blank")
+          a.icon.icon--github(href="https://github.com/Halfeld" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/IgorHalfeld" target="_blank")
     h1
       | {{ $t('home.contributors') }}
 
