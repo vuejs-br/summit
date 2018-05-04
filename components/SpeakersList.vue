@@ -1,7 +1,11 @@
 <template lang="pug">
 .speakers-list
   transition-group(name="fade", tag="div")
-    speaker.fade(v-for="speaker of speakersList", :speaker="speaker", :key="speaker", :adjust-img-url="adjustImgUrl")
+    speaker.fade(
+      v-for="(speaker, index) of speakersList",
+      :speaker="speaker",
+      :key="index",
+      :adjust-img-url="adjustImgUrl")
 </template>
 
 <script>
