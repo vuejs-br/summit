@@ -17,6 +17,22 @@ export default [
     "twitter": "erickpetru",
     "quote": ["A definir", "To be defined"]
   },
+  {
+    "name": "Jacob Schatz",
+    "title": "Lead Frontend Engineer at Gitlab",
+    "img": "/img/jacob.jpeg",
+    "gitlab": "jschatz1",
+    "twitter": "jakecodes",
+    "quote": ["A definir", "To be defined"]
+  },
+  {
+    "name": "Gerard Sans",
+    "title": "Senior Frontend JavaScript Developer at Keytree",
+    "img": "/img/gerad.jpeg",
+    "github": "gsans",
+    "twitter": "gerardsans",
+    "quote": ["A definir", "To be defined"]
+  },
   // {
   //   "name": "Fabio Vedovelli",
   //   "title": ["A definir", "To be defined"],
