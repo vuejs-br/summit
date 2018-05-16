@@ -6,7 +6,10 @@ export default [
     "img": "/img/edd.png",
     "github": "eddyerburgh",
     "twitter": "EddYerburgh",
-    "quote": ["A definir", "To be defined"]
+    "quote": [
+      "Edd Yerburgh is a Sofware Engineer at the BBC in London and is also the main author of Vue Test Utils library. As soon as your Vue application gets large you’re going to need to write automated tests to keep bugs away.",
+      "Edd Yerburgh is a Sofware Engineer at the BBC in London and is also the main author of Vue Test Utils library. As soon as your Vue application gets large you’re going to need to write automated tests to keep bugs away."
+    ]
   },
   {
     "name": "Erick Petrucelli",
@@ -15,7 +18,10 @@ export default [
     "img": "/img/erick.jpeg",
     "github": "ErickPetru",
     "twitter": "erickpetru",
-    "quote": ["A definir", "To be defined"]
+    "quote": [
+      "Mestre em Engenharia de Produção, MBA em Gestão de TI, Tecnólogo em Processamento de Dados, Licenciando em Pedagogia, Certificado MCP e MCPD. Desenvolvedor de software há quase 20 anos, principalmente usando HTML, CSS, JavaScript, Node, .NET e SQL. Docente no ensino superior há 10 anos, atualmente é Coordenador do Curso Superior de Tecnologia em Sistemas para Internet da Fatec Taquaritinga. Marido, pai de cachorro, gamer, músico, roqueiro, eventualmente palestrante, contribuidor do mundo open-source nas horas vagas. Encantado por Vue.js desde os primeiros releases (e por também gostar um bocado da língua portuguesa), não conseguiu evitar a tentação de guiar a tradução da documentação oficial.",
+      "Mestre em Engenharia de Produção, MBA em Gestão de TI, Tecnólogo em Processamento de Dados, Licenciando em Pedagogia, Certificado MCP e MCPD. Desenvolvedor de software há quase 20 anos, principalmente usando HTML, CSS, JavaScript, Node, .NET e SQL. Docente no ensino superior há 10 anos, atualmente é Coordenador do Curso Superior de Tecnologia em Sistemas para Internet da Fatec Taquaritinga. Marido, pai de cachorro, gamer, músico, roqueiro, eventualmente palestrante, contribuidor do mundo open-source nas horas vagas. Encantado por Vue.js desde os primeiros releases (e por também gostar um bocado da língua portuguesa), não conseguiu evitar a tentação de guiar a tradução da documentação oficial."
+    ]
   },
   {
     "name": "Jacob Schatz",
@@ -23,7 +29,10 @@ export default [
     "img": "/img/jacob.jpeg",
     "gitlab": "jschatz1",
     "twitter": "jakecodes",
-    "quote": ["A definir", "To be defined"]
+    "quote": [
+      "Jacob Schatz is a staff developer at Gitlab. In his talk he describes how and why Gitlab chose Vue and what their experience with it has been.",
+      "Jacob Schatz is a staff developer at Gitlab. In his talk he describes how and why Gitlab chose Vue and what their experience with it has been."
+    ]
   },
   {
     "name": "Gerard Sans",
@@ -31,7 +40,10 @@ export default [
     "img": "/img/gerad.jpeg",
     "github": "gsans",
     "twitter": "gerardsans",
-    "quote": ["A definir", "To be defined"]
+    "quote": [
+      "Gerard está muito animado com o futuro da Web e JavaScript. Sempre feliz engenheiro de computação e humilde desenvolvedor do Google. Ele gosta de compartilhar seus conhecimentos dando palestras, treinamentos e escrevendo sobre tecnologias legais. Ele adora rodar AngularZone e GraphQL London, orientando estudantes e dando retorno à comunidade.",
+      "Gerard está muito animado com o futuro da Web e JavaScript. Sempre feliz engenheiro de computação e humilde desenvolvedor do Google. Ele gosta de compartilhar seus conhecimentos dando palestras, treinamentos e escrevendo sobre tecnologias legais. Ele adora rodar AngularZone e GraphQL London, orientando estudantes e dando retorno à comunidade."
+    ]
   },
   // {
   //   "name": "Fabio Vedovelli",

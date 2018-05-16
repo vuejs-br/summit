@@ -43,17 +43,17 @@ export default [
   },
   {
     type: "talk",
-    img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
-    topic: "Call4Papers",
+    img: "/img/gerad.jpeg",
+    topic: "GraphQL até o infinito",
     author: ["Palestra", "Lecture"],
-    // social: [
-    //   {
-    //     "github": "https://github.com/chrisvfritz",
-    //     "twitter": "https://twitter.com/chrisvfritz"
-    //   }
-    // ],
-    authorInfo: ["Submissão da comunidade", "Community submission"],
-    // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
+    social: [
+      {
+        "github": "https://github.com/chrisvfritz",
+        "twitter": "https://twitter.com/chrisvfritz"
+      }
+    ],
+    authorInfo: ["Gerard Sans", "Community submission"],
+    description: "A equipe do Apollo acaba de lançar a nova versão do Apollo Client. Já existe muita publicidade em torno da nova arquitetura usando uma nova abordagem modular e flexível. Nesta palestra, vamos colocá-lo para testá-lo junto com o Vue cobrindo consultas, mutações e em tempo real. Preparar-se!",
     startTime: "11:40",
     duration: "45min"
   },
@@ -74,17 +74,17 @@ export default [
   // },
   {
     type: "talk",
-    img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
-    topic: "Call4Papers",
+    img: "/img/erick.jpeg",
+    topic: "Do Server-Side Rendering ao Nuxt: Reflexões, Críticas, Dicas e Etcéteras",
     author: ["Palestra", "Lecture"],
-    // social: [
-    //   {
-    //     "github": "https://github.com/chrisvfritz",
-    //     "twitter": "https://twitter.com/chrisvfritz"
-    //   }
-    // ],
-    authorInfo: ["Submissão da comunidade", "Community submission"],
-    // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
+    social: [
+      {
+        "github": "https://github.com/ErickPetru",
+        "twitter": "https://twitter.com/erickpetru"
+      }
+    ],
+    authorInfo: ["Erick Petrucelli", "Community submission"],
+    description: "Em um mundo baseado em componentes, por muito tempo estivemos tão focados no client-side e nossos incríveis SPA... De repente, SSR se tornou um daqueles estudos quase obrigatórios! O quanto isso é realmente relevante no contexto do Vue? O que o time principal preparou para abordar tal realidade? Como o Nuxt entra nesse contexto? E afinal, o que realmente vale a pena utilizar? Essas e outras perguntas serão alvo de reflexões e críticas durante esta talk, enquanto abordamos dicas e outras curiosidades relacionadas.",
     startTime: "13:50",
     duration: "45min"
   },
@@ -106,17 +106,17 @@ export default [
   // },
   {
     type: "talk",
-    img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
-    topic: "Call4Papers",
+    img: "/img/edd.png",
+    topic: "Testing vuex",
     author: ["Palestra", "Lecture"],
-    // social: [
-    //   {
-    //     "github": "https://github.com/chrisvfritz",
-    //     "twitter": "https://twitter.com/chrisvfritz"
-    //   }
-    // ],
-    authorInfo: ["Submissão da comunidade", "Community submission"],
-    // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
+    social: [
+      {
+        "github": "https://github.com/eddyerburgh",
+        "twitter": "https://twitter.com/EddYerburgh"
+      }
+    ],
+    authorInfo: ["Edd Yerburgh", "Community submission"],
+    description: "How to write unit tests for applications that use Vuex.",
     startTime: "14:40",
     duration: "45min"
   },

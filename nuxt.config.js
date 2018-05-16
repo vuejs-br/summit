@@ -59,6 +59,6 @@ module.exports = {
     },
     extend (config) {
       // config.resolve.alias['~components'] = path.resolve(__dirname, 'src/components')
-    },
-  },
+    }
+  }
 }
