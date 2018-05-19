@@ -33,6 +33,8 @@
       div
         a(href="https://www.meetup.com/Frontend-Dev-SP-Meetup/", target="_BLANK")
           img.partner__image(src="~assets/img/frontend-sp.jpeg")
+        a(href="https://www.meetup.com/meetupgdguberaba/", target="_BLANK")
+          img.partner__image(src="~assets/img/gdg-uberaba.png")
         a(href="http://www.frontinsampa.com.br/", target="_BLANK")
           img.sponsor__image(src="~assets/img/frontinsampa.jpeg")
         a(href="https://phpsp.org.br/", target="_BLANK")
