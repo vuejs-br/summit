@@ -3,7 +3,7 @@ export default [
     "name": "Chris Fritz",
     "title": "Consultant and Vue Core Team",
     "label": "Core Commiter",
-    "img": "/img/cris.jpg",
+    "img": "/img/chris.jpg",
     "github": "chrisvfritz",
     "twitter": "chrisvfritz",
     "quote": [
