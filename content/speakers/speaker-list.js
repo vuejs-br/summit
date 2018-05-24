@@ -1,5 +1,17 @@
 export default [
   {
+    "name": "Chris Fritz",
+    "title": "Consultant and Vue Core Team",
+    "label": "Core Commiter",
+    "img": "/img/cris.jpg",
+    "github": "chrisvfritz",
+    "twitter": "chrisvfritz",
+    "quote": [
+      "Educator/hacker working to make web dev simpler. Vue core team member and curator of our docs.",
+      "Educator/hacker working to make web dev simpler. Vue core team member and curator of our docs."
+    ]
+  },
+  {
     "name": "Edd Yerburgh",
     "title": "Software Engineer at BBC",
     "label": "Core Commiter",
@@ -68,14 +80,6 @@ export default [
     "github": "laistomazz",
     "twitter": "laistomazz",
     "quote": ["A definir", "To be defined"]
-  },
-  {
-    "name": "Call 4 papers",
-    "title": ["A definir", "To be defined"],
-    "img": "/img/avatar.jpg",
-    "github": "#",
-    "twitter": "#",
-    "quote": ["Submissão da comunidade", "Community submission"],
   },
   {
     "name": "Call 4 papers",
