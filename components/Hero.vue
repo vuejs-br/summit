@@ -11,8 +11,8 @@
       //- h2.hero-banner__subheader.hero-banner__subheader--last
       a.post-section__button.button.post-section__first-button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
         | {{ $t('home.hero.button1') }}
-      p
-        | {{ $t('home.hero.obs') }}
+      br
+      | {{ $t('home.hero.obs') }}
 </template>
 
 <script>

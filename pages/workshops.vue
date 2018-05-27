@@ -13,6 +13,7 @@
           href="https://www.google.com.br/maps/place/Salas+Brasil+-+Paraiso/@-23.5716738,-46.6431551,15z/data=!4m5!3m4!1s0x0:0x3c65b3e7403c5a44!8m2!3d-23.5716738!4d-46.6431551",
           target="_BLANK")  Espaço Paraíso
       br
+      | {{ $t('home.hero.obs') }}
       //- br
       //- | Theory is not enough.
       //- br
@@ -22,16 +23,12 @@
       //- br
       // br
       // | Workshops são vendidos separados da conferência
-      br
-      br
-      small
-        strong {{ $t('workshops.requeriments.title') }}
-        br
-        | {{ $t('workshops.requeriments.line1') }}
-        br
-        | {{ $t('workshops.requeriments.line2') }}
-        br
-        | {{ $t('workshops.requeriments.line3') }}
+      // br
+      // br
+      // small
+      //   strong {{ $t('workshops.requeriments.title') }}
+        // br
+        // | {{ $t('workshops.requeriments.line1') }}
     .agenda
       talk(:talk="evanWorkshop", :desc-flex="7")
         :markdown-it
