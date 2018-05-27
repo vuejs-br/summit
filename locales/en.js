@@ -10,8 +10,8 @@ module.exports = {
     hero: {
       participants: 'Participants',
       country: 'Brazil',
-      button1: 'Conference registration',
-      button2: 'Workshop registration',
+      button1: 'Conference and Workshop registration',
+      obs: '* Workshops are sold separately.',
       description: 'The biggest Vue.js experience in Latin America!',
     },
     place: {

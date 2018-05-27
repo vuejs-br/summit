@@ -10,8 +10,8 @@ module.exports = {
     hero: {
       participants: 'Participantes',
       country: 'Brasil',
-      button1: 'Inscrição conferência',
-      button2: 'Inscrição workshop',
+      button1: 'Inscrição conferência e workshop',
+      obs: '* Workshops são vendidos separamente.',
       description: 'A maior experiência Vue.js da america latina!',
     },
     place: {

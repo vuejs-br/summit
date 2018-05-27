@@ -35,16 +35,16 @@
     .agenda
       talk(:talk="evanWorkshop", :desc-flex="7")
         :markdown-it
-            A definir
-        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
+            We'll cover everything from documenting and enforcing best practices, to writing robust, fast, and debuggable unit and **end-to-end tests**. This will help you and your **team not only avoid mistakes**, but also **better communicate**, end bikeshedding, and build amazing features faster.
+        // a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
-          A definir
-        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
+          Introdução ao Vuex através de exemplos fáceis e exercícios. Você aprenderá como integrar a Vuex em seus projetos atuais seguindo as melhores práticas!
+        // a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
           A definir
-        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
+        // a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
     .center
       a(href="https://docs.google.com/forms/d/e/1FAIpQLSfFP7wJhNkaYtVUwnKYLhgtW6HIr7ESVSXn_o86zbUMqTtbww/viewform", target="_BLANK")
         button.button.speaker-button {{ $t('workshops.button') }}
@@ -62,42 +62,42 @@ export default {
     return {
       evanWorkshop: {
         type: "talk",
-        img: "/img/avatar.jpg",
-        topic: ["A definir", "To be defined"],
-        author: ["A definir", "To be defined"],
+        img: "/img/chris.jpg",
+        topic: ["Making it hard to Vue wrong with linting and tests.", "Making it hard to Vue wrong with linting and tests."],
+        author: ["Chris Fritz", "Chris Fritz"],
         social: [
           {
-            github: "https://github.com/#",
-            twitter: "https://twitter.com/#"
+            github: "https://github.com/chrisvfritz",
+            twitter: "https://twitter.com/chrisvfritz"
           }
         ],
-        authorInfo: ["Submissão da comunidade", "Community submission"],
+        authorInfo: ["Vue.js Consultant and Vue Core Team", "Vue.js Consultant and Vue Core Team"],
       },
       blakeWorkshop: {
         type: "talk",
-        img: "/img/avatar.jpg",
-        topic: ["A definir", "To be defined"],
-        author: ["A definir", "To be defined"],
+        img: "/img/gerad.jpeg",
+        topic: ["Introdução a Vuex para pessoas com pressa.", "Introdução a Vuex para pessoas com pressa."],
+        author: ["Gerard Sans", "Gerard Sans"],
         social: [
           {
-            github: "https://github.com/#",
-            twitter: "https://twitter.com/#"
+            github: "https://github.com/gsans",
+            twitter: "https://twitter.com/gerardsans"
           }
         ],
-        authorInfo: ["Submissão da comunidade", "Community submission"],
+        authorInfo: ["Senior Frontend JavaScript Developer at Keytree", "Senior Frontend JavaScript Developer at Keytree"],
       },
       sarahWorkshop: {
         type: "talk",
-        img: "/img/avatar.jpg",
+        img: "/img/jacob.jpeg",
         topic: ["A definir", "To be defined"],
-        author: ["A definir", "To be defined"],
+        author: ["Jacob Schatz", "Jacob Schatz"],
         social: [
           {
-            github: "https://github.com/#",
-            twitter: "https://twitter.com/#"
+            gitlab: "https://gitlab.com/jschatz1",
+            twitter: "https://twitter.com/jakecodes"
           }
         ],
-        authorInfo: ["Submissão da comunidade", "Community submission"],
+        authorInfo: ["Lead Frontend Engineer at Gitlab", "Lead Frontend Engineer at Gitlab"],
       }
     }
   }
