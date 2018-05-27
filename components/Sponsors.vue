@@ -3,9 +3,12 @@
   .container__inner
     h1 {{ $t('home.sponsors.title1') }}
     .sponsors__container
-      .div
+      .div.partner__image
         a(href="http://stored.com.br/", target="_BLANK")
           img.partner__image(src="~assets/img/stored.png")
+      .div.partner__image
+        a(href="http://jardim.in/", target="_BLANK")
+          img.partner__image(src="~assets/img/jd.png")
 
     p("v-html"="$t('home.sponsors.description1')")
     a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button1') }}
