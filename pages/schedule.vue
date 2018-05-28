@@ -20,6 +20,9 @@
     //-     :event="event",
     //-     key="index"
     //-   )
+    .center
+      a(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
+        button.button.speaker-button {{ $t('home.hero.button1') }}
 </template>
 
 <script>
