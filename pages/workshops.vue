@@ -62,6 +62,7 @@ export default {
         img: "/img/chris.jpg",
         topic: ["Making it hard to Vue wrong with linting and tests.", "Making it hard to Vue wrong with linting and tests."],
         author: ["Chris Fritz", "Chris Fritz"],
+        speakerLabel: "Core Commiter",
         social: [
           {
             github: "https://github.com/chrisvfritz",

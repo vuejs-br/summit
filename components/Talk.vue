@@ -1,5 +1,7 @@
 <template lang="pug">
 .talk__container
+  span.talk__image__label(v-if="talk.speakerLabel")
+    | {{ translate(talk.speakerLabel) }}
   .talk(:id="id")
     .talk__image-container
       .talk__images
@@ -55,6 +57,17 @@ export default {
 
 .talk__container
   margin-bottom: 40px
+  position: relative
+
+  .talk__image__label
+    position: absolute
+    background-color: $color-vue-green
+    padding: 5px
+    right: -20px
+    border-radius: 6px
+    font-size: 13px
+    color: $color-white
+    transform: rotate(25deg)
 
 .talk
   display: flex
@@ -87,6 +100,7 @@ export default {
     padding-left: 30px
 
 .talk__image-container
+  position: relative
   flex: 3
   display: flex
   flex-direction: column

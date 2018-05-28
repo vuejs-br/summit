@@ -8,6 +8,8 @@
   )
     .event__header
       .event__time {{ event.startTime }}
+      span.event__label(v-if="event.speakerLabel")
+        | {{ translate(event.speakerLabel) }}
       .event__images-container
         img.event__image(
           v-for="image of images",
@@ -232,6 +234,17 @@ export default {
   justify-content: flex-start
   @media #{$medium-up}
     flex-direction: row
+
+  .event__label
+    position: absolute
+    background-color: $color-vue-green
+    padding: 5px
+    top: -10px
+    left: -45px
+    border-radius: 6px
+    font-size: 13px
+    color: $color-white
+    transform: rotate(-25deg)
 
 .event__image
   display: inline-block

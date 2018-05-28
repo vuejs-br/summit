@@ -77,6 +77,7 @@ export default [
     img: "/img/erick.jpeg",
     topic: "Do Server-Side Rendering ao Nuxt: Reflexões, Críticas, Dicas e Etcéteras",
     author: ["Palestra", "Lecture"],
+    speakerLabel: "Community Partner",
     social: [
       {
         "github": "https://github.com/ErickPetru",
@@ -109,6 +110,7 @@ export default [
     img: "/img/edd.png",
     topic: "Testing vuex",
     author: ["Palestra", "Lecture"],
+    speakerLabel: "Core Commiter",
     social: [
       {
         "github": "https://github.com/eddyerburgh",
