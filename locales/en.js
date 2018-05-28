@@ -49,7 +49,7 @@ module.exports = {
       line3: '- Your favorite code editor',
     },
     schedule: {
-      button: 'Sales coming soon'
+      button: 'Buy!'
     },
     button: 'Send your workshop!'
   },
