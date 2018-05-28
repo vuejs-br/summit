@@ -33,18 +33,18 @@
       talk(:talk="evanWorkshop", :desc-flex="7")
         :markdown-it
             We'll cover everything from documenting and enforcing best practices, to writing robust, fast, and debuggable unit and **end-to-end tests**. This will help you and your **team not only avoid mistakes**, but also **better communicate**, end bikeshedding, and build amazing features faster.
-        // a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
+        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }} - R$170.00 - 4h
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
           Introdução ao Vuex através de exemplos fáceis e exercícios. Você aprenderá como integrar a Vuex em seus projetos atuais seguindo as melhores práticas!
-        // a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
+        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
           A definir
-        // a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }}
+        a.button(slot="ticket", disabled) {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
     .center
-      a(href="https://docs.google.com/forms/d/e/1FAIpQLSfFP7wJhNkaYtVUwnKYLhgtW6HIr7ESVSXn_o86zbUMqTtbww/viewform", target="_BLANK")
-        button.button.speaker-button {{ $t('workshops.button') }}
+      a(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
+        button.button.speaker-button {{ $t('home.hero.button1') }}
 </template>
 
 <script>

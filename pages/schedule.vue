@@ -49,7 +49,7 @@ export default {
 @import ~assets/css/base/helpers
 
 .agenda__header
-  margin-bottom: 20px
+  margin-bottom: -60px
 
 .subheader__description
   margin: 80px 0
