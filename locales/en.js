@@ -40,7 +40,7 @@ module.exports = {
   },
   workshops: {
     date: 'August, 31',
-    description: '3 experiments with 2 hours each',
+    description: 'Only 45 places in each workshop.',
     location: 'Location:',
     requeriments: {
       title: 'Requeriments:',

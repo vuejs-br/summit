@@ -40,7 +40,7 @@ module.exports = {
   },
   workshops: {
     date: '31 de agosto',
-    description: '3 experiências com 2 horas de duração cada',
+    description: 'Apenas 45 vagas em cada workshop.',
     location: 'Localização:',
     requeriments: {
       title: 'Requerimentos:',
