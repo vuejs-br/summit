@@ -46,6 +46,7 @@ export default [
     img: "/img/gerad.jpeg",
     topic: "GraphQL até o infinito",
     author: ["Palestra", "Lecture"],
+    speakerLabel: "Google Developer Expert",
     social: [
       {
         "github": "https://github.com/chrisvfritz",
