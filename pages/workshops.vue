@@ -76,6 +76,7 @@ export default {
         img: "/img/gerad.jpeg",
         topic: ["Introdução a Vuex para pessoas com pressa.", "Introdução a Vuex para pessoas com pressa."],
         author: ["Gerard Sans", "Gerard Sans"],
+        speakerLabel: "Google Developer Expert",
         social: [
           {
             github: "https://github.com/gsans",
