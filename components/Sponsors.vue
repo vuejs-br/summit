@@ -9,6 +9,9 @@
       .div.partner__image
         a(href="http://jardim.in/", target="_BLANK")
           img.partner__image(src="~assets/img/jd.png")
+      .div.partner__image
+        a(href="https://www.revelo.com.br/", target="_BLANK")
+          img.partner__image(src="~assets/img/revelo.png")
 
     p("v-html"="$t('home.sponsors.description1')")
     a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button1') }}
