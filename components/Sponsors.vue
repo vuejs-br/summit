@@ -45,6 +45,8 @@
       div
         a(href="https://www.meetup.com/meetupgdguberaba/", target="_BLANK")
           img.partner__image(src="~assets/img/gdg-uberaba.png", title="157 membros")
+        a(href="https://www.meetup.com/GDGRioDeJaneiro/", target="_BLANK")
+          img.partner__image(src="~assets/img/gdg-rj.png", title="1939 membros")
 
     p("v-html"="$t('home.sponsors.description2')")
     a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button2') }}
