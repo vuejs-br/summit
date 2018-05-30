@@ -7,8 +7,8 @@ export default [
     "github": "chrisvfritz",
     "twitter": "chrisvfritz",
     "quote": [
-      "Educator/hacker working to make web dev simpler. Vue core team member and curator of our docs.",
-      "Educator/hacker working to make web dev simpler. Vue core team member and curator of our docs."
+      "Chris Fritz lives in Lansing, Michigan, working on open source and helping companies around the world build incredible web frontends. He’s most well known for his work as a member of the Vue core team, writing and curating Vue’s documentation, along with other resources to make life simpler for web developers. As a remote consultant nowhere near any coasts, he enjoys traveling the world and answering the inevitable question, “So… why Michigan? Are you hiding from the law or something?” When at home and his lap isn’t occupied by a computer, it usually has a cat on it—or that may be the other way around.",
+      "Chris Fritz lives in Lansing, Michigan, working on open source and helping companies around the world build incredible web frontends. He’s most well known for his work as a member of the Vue core team, writing and curating Vue’s documentation, along with other resources to make life simpler for web developers. As a remote consultant nowhere near any coasts, he enjoys traveling the world and answering the inevitable question, “So… why Michigan? Are you hiding from the law or something?” When at home and his lap isn’t occupied by a computer, it usually has a cat on it—or that may be the other way around."
     ]
   },
   {
