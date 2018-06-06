@@ -69,14 +69,17 @@ export default [
       "Front-End Developer especialista em VueJS, Vuex, SASS, PUG, Atomic Design e GeoDevelopement com ArcGIS, Leaflet e OpenStreetMap. Atualmente trabalhando com A-Frame, WebVR e Three.js fazendo aplicações de realidade virtual com VueJS numa empresa maneiríssima que mistura arte, design e tecnologia. Ativista de Software Livre, representante da Mozilla no Brasil, já participei de diversos eventos pelo país falando sobre tecnologias web. Apresento um podcast chamado 'Elemencast' cujo tema é desenvolvimento web, criei a VBar, uma das principais bibliotecas de Scrollbar virtual para VueJS e faço parte da comunidade VueJS in Rio."
     ]
   },
-  // {
-  //   "name": "Vinicius Reis",
-  //   "title": ["A definir", "To be defined"],
-  //   "img": "/img/vini.jpeg",
-  //   "github": "vinicius73",
-  //   "twitter": "LuizVinicius73",
-  //   "quote": ["A definir", "To be defined"]
-  // },
+  {
+    "name": "William Marques",
+    "title": "Analista de Sistemas",
+    "img": "/img/will.jpg",
+    "github": "wilcorrea",
+    "twitter": "wilcorrea",
+    "quote": [
+      "Admirador do VueJS, uso e abuso do poder dele. Usuário da ferramenta a algum tempo tenho trabalhado junto à comunidade para levar a palavra do VueJS a todas as partes.",
+      "Admirador do VueJS, uso e abuso do poder dele. Usuário da ferramenta a algum tempo tenho trabalhado junto à comunidade para levar a palavra do VueJS a todas as partes."
+    ]
+  },
   // {
   //   "name": "Laís Tomaz",
   //   "title": "Desenvolvedora front-end na AppCívico & Eokoe",

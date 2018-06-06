@@ -203,17 +203,17 @@ export default [
   },
   {
     type: "talk",
-    img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
-    topic: "Call4Papers",
+    img: "/img/will.jpg",
+    topic: "Construindo Aplicações Modulares",
     author: ["Palestra", "Lecture"],
-    // social: [
-    //   {
-    //     "github": "https://github.com/chrisvfritz",
-    //     "twitter": "https://twitter.com/chrisvfritz"
-    //   }
-    // ],
-    authorInfo: ["Submissão da comunidade", "Community submission"],
-    // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
+    social: [
+      {
+        "github": "https://github.com/wilcorrea",
+        "twitter": "https://twitter.com/wilcorrea"
+      }
+    ],
+    authorInfo: ["William Marques", "William Marques"],
+    description: "Essa talk tem como principal objetivo explorar alguns conceitos avançados do VueJS. Se você deseja automatizar seus projetos, mas tem receio de criar mais problemas ou quer fazer estruturas mais organizadas, mas não sabe como, pode conseguir algumas dicas de rumos a seguir. Serão abordados o uso de mixins, extends, dynamic components, modules, function mode nas props do VueRouter, além do uso de Services e protótipos para a infra do seu projeto.",
     startTime: "16:20",
     duration: "45min"
   },
