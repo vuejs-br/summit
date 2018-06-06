@@ -58,14 +58,17 @@ export default [
       "Gerard está muito animado com o futuro da Web e JavaScript. Sempre feliz engenheiro de computação e humilde desenvolvedor do Google. Ele gosta de compartilhar seus conhecimentos dando palestras, treinamentos e escrevendo sobre tecnologias legais. Ele adora rodar AngularZone e GraphQL London, orientando estudantes e dando retorno à comunidade."
     ]
   },
-  // {
-  //   "name": "Fabio Vedovelli",
-  //   "title": ["A definir", "To be defined"],
-  //   "img": "/img/fabio.png",
-  //   "github": "vedovelli",
-  //   "twitter": "vedovelli",
-  //   "quote": ["A definir", "To be defined"]
-  // },
+  {
+    "name": "Luigui Delyer",
+    "title": "Frontend Senior",
+    "img": "/img/lui.jpg",
+    "github": "luiguild",
+    "twitter": "luiguild",
+    "quote": [
+      "Front-End Developer especialista em VueJS, Vuex, SASS, PUG, Atomic Design e GeoDevelopement com ArcGIS, Leaflet e OpenStreetMap. Atualmente trabalhando com A-Frame, WebVR e Three.js fazendo aplicações de realidade virtual com VueJS numa empresa maneiríssima que mistura arte, design e tecnologia. Ativista de Software Livre, representante da Mozilla no Brasil, já participei de diversos eventos pelo país falando sobre tecnologias web. Apresento um podcast chamado 'Elemencast' cujo tema é desenvolvimento web, criei a VBar, uma das principais bibliotecas de Scrollbar virtual para VueJS e faço parte da comunidade VueJS in Rio.",
+      "Front-End Developer especialista em VueJS, Vuex, SASS, PUG, Atomic Design e GeoDevelopement com ArcGIS, Leaflet e OpenStreetMap. Atualmente trabalhando com A-Frame, WebVR e Three.js fazendo aplicações de realidade virtual com VueJS numa empresa maneiríssima que mistura arte, design e tecnologia. Ativista de Software Livre, representante da Mozilla no Brasil, já participei de diversos eventos pelo país falando sobre tecnologias web. Apresento um podcast chamado 'Elemencast' cujo tema é desenvolvimento web, criei a VBar, uma das principais bibliotecas de Scrollbar virtual para VueJS e faço parte da comunidade VueJS in Rio."
+    ]
+  },
   // {
   //   "name": "Vinicius Reis",
   //   "title": ["A definir", "To be defined"],

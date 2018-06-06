@@ -187,17 +187,17 @@ export default [
   },
   {
     type: "talk",
-    img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
-    topic: "Call4Papers",
+    img: "/img/lui.jpg",
+    topic: "Atomic Design e porque Vue é a biblioteca perfeita pra isso",
     author: ["Palestra", "Lecture"],
-    // social: [
-    //   {
-    //     "github": "https://github.com/chrisvfritz",
-    //     "twitter": "https://twitter.com/chrisvfritz"
-    //   }
-    // ],
-    authorInfo: ["Submissão da comunidade", "Community submission"],
-    // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
+    social: [
+      {
+        "github": "https://github.com/luiguild",
+        "twitter": "https://twitter.com/luiguild"
+      }
+    ],
+    authorInfo: ["Luigui Delyer", "Luigui Delyer"],
+    description: "Componentizar apps inteiros faz parte do nosso dia-a-dia, porém, até hoje nos perdemos na hora de separar essas partezinhas que constroem tudo. Várias metodologias já nos foram apresentadas, mas nenhuma delas resolve tudo tão bem quando o Atomic Design. A metodologia tem ganhado mais força a cada dia que passa, e quando encontrou os Single File Components, aconteceu um casamento perfeito.\nVou mostrar como a união dos componentes autônomos do Vue funcionam perfeitamente com Atomic Design e como jogamos a responsabilidade do fluxo de dados integralmente pro Vuex.",
     startTime: "15:35",
     duration: "45min"
   },
