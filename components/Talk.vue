@@ -13,6 +13,7 @@
           a.icon.icon--github(v-if="social.github", :href="social.github" target="_blank")
           a.icon.icon--gitlab(v-if="social.gitlab", :href="social.gitlab" target="_blank")
           a.icon.icon--twitter(v-if="social.twitter", :href="social.twitter" target="_blank")
+          a.icon.icon--medium(v-if="social.medium", :href="social.medium" target="_blank")
     .talk__description(:style="{ flex: descFlex }")
       h2.talk__topic {{ translate(talk.topic) }}
       slot

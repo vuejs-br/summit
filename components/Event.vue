@@ -26,6 +26,7 @@
               a.icon.icon--github(v-if="social.github", :href="social.github" target="_blank")
               a.icon.icon--gitlab(v-if="social.gitlab", :href="social.gitlab" target="_blank")
               a.icon.icon--twitter(v-if="social.twitter", :href="social.twitter" target="_blank")
+              a.icon.icon--medium(v-if="social.medium", :href="social.medium", target="_blank", style="margin-left: 0")
         .event__duration(v-if="event.duration") {{ event.duration }}
         h2.event__topic(:class="event.type=='other' && 'event__topic--other'") {{ translate(event.topic) }}
     .event__accordion

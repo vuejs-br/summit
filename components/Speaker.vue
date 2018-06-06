@@ -13,6 +13,7 @@
             a.icon.icon--github(v-if="speaker.github", :href="`https://github.com/${speaker.github}`" target="_blank")
             a.icon.icon--gitlab(v-if="speaker.gitlab", :href="`https://gitlab.com/${speaker.gitlab}`" target="_blank")
             a.icon.icon--twitter(v-if="speaker.twitter", :href="`https://twitter.com/${speaker.twitter}`" target="_blank")
+            a.icon.icon--medium(v-if="speaker.medium", :href="`https://medium.com/${speaker.medium}`" target="_blank")
         .speaker__bio
           | {{ translate(speaker.bio) }}
         blockquote.speaker__quote(v-if="speaker.quote")
@@ -31,6 +32,7 @@
         a.icon.icon--gitlab(@click.stop="", v-if="speaker.gitlab", :href="`https://gitlab.com/${speaker.gitlab}`" target="_blank")
         a.icon.icon--github(@click.stop="", v-if="speaker.github", :href="`https://github.com/${speaker.github}`" target="_blank")
         a.icon.icon--twitter(@click.stop="", v-if="speaker.twitter", :href="`https://twitter.com/${speaker.twitter}`" target="_blank")
+        a.icon.icon--medium(@click.stop="", v-if="speaker.medium", :href="`https://medium.com/${speaker.medium}`" target="_blank")
 
       button.button-secondary(@click.stop="showDetails") {{ $t('speakers.more') }}
 </template>

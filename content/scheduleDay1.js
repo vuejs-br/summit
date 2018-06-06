@@ -225,7 +225,7 @@ export default [
     social: [
       {
         "github": "https://github.com/trickstival",
-        "twitter": "https://twitter.com/@patrickstivalchaerke"
+        "medium": "https://medium.com/@patrickstivalchaerke"
       }
     ],
     authorInfo: ["Patrick Stival", "Patrick Stival"],

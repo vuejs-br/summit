@@ -96,7 +96,7 @@ export default [
     "title": "Desenvolvedor Full-Stack Javascript",
     "img": "/img/patric.jpg",
     "github": "trickstival",
-    "twitter": "@patrickstivalchaerke",
+    "medium": "@patrickstivalchaerke",
     "quote": [
       "Desenvolvedor Javascript Full-stack com mais de um ano de experiência com Vue.js + Firebase. Atualmente trabalha com desenvolvimento Node + Mongoose e Vue.js",
       "Desenvolvedor Javascript Full-stack com mais de um ano de experiência com Vue.js + Firebase. Atualmente trabalha com desenvolvimento Node + Mongoose e Vue.js"
