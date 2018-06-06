@@ -147,17 +147,17 @@ export default [
   },
   {
     type: "talk",
-    img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
-    topic: "Call4Papers",
+    img: "/img/felipe.jpeg",
+    topic: "Vue Style Guide - Criando aplicações manuteníveis",
     author: ["Palestra", "Lecture"],
-    // social: [
-    //   {
-    //     "github": "https://github.com/chrisvfritz",
-    //     "twitter": "https://twitter.com/chrisvfritz"
-    //   }
-    // ],
-    authorInfo: ["Submissão da comunidade", "Community submission"],
-    // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
+    social: [
+      {
+        "github": "https://github.com/omarkdev",
+        "twitter": "https://twitter.com/omarkdev"
+      }
+    ],
+    authorInfo: ["Marcos Felipe", "Marcos Felipe"],
+    description: "Quando falamos do ciclo de vida de uma aplicação, seja ela grande ou pequena, sabemos que nesse ciclo ela terá mudanças em seu código, porém várias vezes o código pode user consumido por outro desenvolvedor que pode acabar não entendendo nada, e é por isso que os style guides são importantes. Sempre devemos procurar escrever aplicações manuteníveis e consistentes e é disso que esta palestra irá abordar, como escrever uma aplicação que possa ser entendida por todos da equipe, como aplicar o style guide que o Vue propoe e porque você deveria começar a fazer isso já.",
     startTime: "14:40",
     duration: "50min"
   },
@@ -219,17 +219,17 @@ export default [
   },
   {
     type: "talk",
-    img: "https://t3.ftcdn.net/jpg/01/04/10/10/240_F_104101070_wbEDt3CmlzqnPbdmOlVCL7Q7yu9mCduz.jpg",
-    topic: "Call4Papers",
+    img: "/img/patric.jpg",
+    topic: "Já pensou em usar um BaaS? - Firebase Firestore + Vue.js",
     author: ["Palestra", "Lecture"],
-    // social: [
-    //   {
-    //     "github": "https://github.com/chrisvfritz",
-    //     "twitter": "https://twitter.com/chrisvfritz"
-    //   }
-    // ],
-    authorInfo: ["Submissão da comunidade", "Community submission"],
-    // description: "Vue is versatile. It can be dropped into a page like jQuery, or power an entirely independent frontend. These are the well-known extremes, but for many apps and teams, a lesser-known shade in between would be a better fit.\n\n In this talk, we’ll explore the entire spectrum of integration strategies, including varieties at the extremes. For every kind of app, you’ll learn what’s worked for others and what’s held them back, including specific code examples you can adapt for your own apps.",
+    social: [
+      {
+        "github": "https://github.com/trickstival",
+        "twitter": "https://twitter.com/@patrickstivalchaerke"
+      }
+    ],
+    authorInfo: ["Patrick Stival", "Patrick Stival"],
+    description: "Nessa talk falarei sobre a utilização do BaaS Firebase com o Vue.js, dois sistemas reativos que funcionam muito bem em conjunto. Será abordado um pouco sobre os melhores casos de uso para a utilização de um Back-end as a Service, mas com o foco em apresentar as facilidades no desenvolvimento que o Firebase proporciona tanto no código quanto na visualização geral da aplicação.",
     startTime: "17:07",
     duration: "50min"
   },

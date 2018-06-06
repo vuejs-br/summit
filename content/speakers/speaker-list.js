@@ -80,14 +80,17 @@ export default [
       "Admirador do VueJS, uso e abuso do poder dele. Usuário da ferramenta a algum tempo tenho trabalhado junto à comunidade para levar a palavra do VueJS a todas as partes."
     ]
   },
-  // {
-  //   "name": "Laís Tomaz",
-  //   "title": "Desenvolvedora front-end na AppCívico & Eokoe",
-  //   "img": "/img/lais.jpg",
-  //   "github": "laistomazz",
-  //   "twitter": "laistomazz",
-  //   "quote": ["A definir", "To be defined"]
-  // },
+  {
+    "name": "Marcos Felipe",
+    "title": "Desenvolvedor web",
+    "img": "/img/felipe.jpeg",
+    "github": "omarkdev",
+    "twitter": "omarkdev",
+    "quote": [
+      "Trabalho com tecnologia há mais de 5 anos, atualmente cursando Banco de Dados na FATEC em Bauru. Amante do Open Source, comunidades e de tecnologias em geral. Atualmente participa da organização do DevTalks Bauru e também é fundador da CrowLabs Bauru. Tem contribuido com grupos no Telegram, Slack, Facebook e Fóruns, entre outros projetos como por exemplo: Mentoria do training center.",
+      "Trabalho com tecnologia há mais de 5 anos, atualmente cursando Banco de Dados na FATEC em Bauru. Amante do Open Source, comunidades e de tecnologias em geral. Atualmente participa da organização do DevTalks Bauru e também é fundador da CrowLabs Bauru. Tem contribuido com grupos no Telegram, Slack, Facebook e Fóruns, entre outros projetos como por exemplo: Mentoria do training center."
+    ]
+  },
   // {
   //   "name": "Call 4 papers",
   //   "title": ["A definir", "To be defined"],
