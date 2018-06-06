@@ -91,14 +91,17 @@ export default [
       "Trabalho com tecnologia há mais de 5 anos, atualmente cursando Banco de Dados na FATEC em Bauru. Amante do Open Source, comunidades e de tecnologias em geral. Atualmente participa da organização do DevTalks Bauru e também é fundador da CrowLabs Bauru. Tem contribuido com grupos no Telegram, Slack, Facebook e Fóruns, entre outros projetos como por exemplo: Mentoria do training center."
     ]
   },
-  // {
-  //   "name": "Call 4 papers",
-  //   "title": ["A definir", "To be defined"],
-  //   "img": "/img/avatar.jpg",
-  //   "github": "#",
-  //   "twitter": "#",
-  //   "quote": ["Submissão da comunidade", "Community submission"],
-  // },
+  {
+    "name": "Patrick Stival",
+    "title": "Desenvolvedor Full-Stack Javascript",
+    "img": "/img/patric.jpg",
+    "github": "trickstival",
+    "twitter": "@patrickstivalchaerke",
+    "quote": [
+      "Desenvolvedor Javascript Full-stack com mais de um ano de experiência com Vue.js + Firebase. Atualmente trabalha com desenvolvimento Node + Mongoose e Vue.js",
+      "Desenvolvedor Javascript Full-stack com mais de um ano de experiência com Vue.js + Firebase. Atualmente trabalha com desenvolvimento Node + Mongoose e Vue.js"
+    ],
+  },
   // {
   //   "name": "Call 4 papers",
   //   "title": ["A definir", "To be defined"],
