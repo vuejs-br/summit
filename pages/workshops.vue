@@ -38,10 +38,20 @@
         :markdown-it
           Introdução ao Vuex através de exemplos fáceis e exercícios. Você aprenderá como integrar a Vuex em seus projetos atuais seguindo as melhores práticas!
         a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket") {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
+      talk(:talk="dianaWorkshop1", :desc-flex="7")
+        :markdown-it
+          **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**  
+          Comece com o Vue.js criando um aplicativo da Web estático de Pet Shop. Usando dados estáticos, você construirá uma interface de cartão para mostrar muitos cães adotáveis e, usando a API do DogCEO, carregará também imagens de cães dinamicamente, em vez de usar dados fictícios.
+        a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket") {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
           A definir
-        a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket") {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
+        a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket") {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
+      talk(:talk="dianaWorkshop2", :desc-flex="7")
+        :markdown-it
+          **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**  
+          Neste workshop, passaremos da criação de um aplicativo da Web para criar uma experiência de adoção de animais de estimação para criar um aplicativo para dispositivos móveis para uma variação desse tema. Usando a API do CEO Dog novamente, vamos criar "Tinder for Dogs" - "Tindogs" - onde o usuário pode carregar um baralho de 15 imagens de cachorro de cada vez e deslizar para a esquerda e para a direita para "curtir" vários cães. Tudo em boa diversão!
+        a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket") {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
     .center
       a(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
         button.button.speaker-button {{ $t('home.hero.button1') }}
@@ -97,6 +107,34 @@ export default {
           }
         ],
         authorInfo: ["Lead Frontend Engineer at Gitlab", "Lead Frontend Engineer at Gitlab"],
+      },
+      dianaWorkshop1: {
+        type: "talk",
+        img: "/img/diana.jpeg",
+        topic: ["Criando um webapp para um PetShow", "Criando um webapp para um PetShow"],
+        author: ["Diana Rodriguez", "Diana Rodriguez"],
+        speakerLabel: "Vue Vixens Skulk",
+        social: [
+          {
+            github: "https://gitlab.com/alphacentauri82",
+            twitter: "https://twitter.com/cotufa82"
+          }
+        ],
+        authorInfo: ["DevOps/FullStack Developer & Director of Vue Vixens Argentina.", "DevOps/FullStack Developer & Director of Vue Vixens Argentina."],
+      },
+      dianaWorkshop2: {
+        type: "talk",
+        img: "/img/diana.jpeg",
+        topic: ["Meu primeiro App Mobile com Nativescript-Vue: Tindogs", "Meu primeiro App Mobile com Nativescript-Vue: Tindogs"],
+        author: ["Diana Rodriguez", "Diana Rodriguez"],
+        speakerLabel: "Vue Vixens Skulk",
+        social: [
+          {
+            github: "https://gitlab.com/alphacentauri82",
+            twitter: "https://twitter.com/cotufa82"
+          }
+        ],
+        authorInfo: ["DevOps/FullStack Developer & Director of Vue Vixens Argentina.", "DevOps/FullStack Developer & Director of Vue Vixens Argentina."],
       }
     }
   }

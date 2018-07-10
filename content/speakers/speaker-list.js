@@ -102,14 +102,25 @@ export default [
       "Desenvolvedor Javascript Full-stack com mais de um ano de experiência com Vue.js + Firebase. Atualmente trabalha com desenvolvimento Node + Mongoose e Vue.js"
     ],
   },
-  // {
-  //   "name": "Call 4 papers",
-  //   "title": ["A definir", "To be defined"],
-  //   "img": "/img/avatar.jpg",
-  //   "github": "#",
-  //   "twitter": "#",
-  //   "quote": ["Submissão da comunidade", "Community submission"],
-  // },
+  {
+    "name": "Diana Rodriguez",
+    "title": ["DevOps/FullStack Developer", "DevOps/FullStack Developer"],
+    "img": "/img/diana.jpeg",
+    "github": "alphacentauri82",
+    "twitter": "cotufa82",
+    "quote": [
+      `DevOps/FullStack Developer & Director of Vue Vixens Argentina.
+      Vue Vixens Skulk
+      Vue Vixens is an initiative created by Jen Looper, a Senior Developer Advocate at Progress, creators of NativeScript, Kendo UI, Open Edge, and more. Vue Vixens' mission is to create workshops to teach Vue.js in a cool and fun way to 'foxy people who identify as women'.
+      These workshops are designed to help people get better acquainted with both Vue.js and NativeScript-Vue, an implementation of Vue.js that lets developers write native mobile apps using Vue.
+      Join in with 2 half day workshops to learn web and mobile technologies with Vue.js.`,
+      `DevOps/FullStack Developer & Director of Vue Vixens Argentina.
+      Vue Vixens Skulk
+      Vue Vixens is an initiative created by Jen Looper, a Senior Developer Advocate at Progress, creators of NativeScript, Kendo UI, Open Edge, and more. Vue Vixens' mission is to create workshops to teach Vue.js in a cool and fun way to 'foxy people who identify as women'.
+      These workshops are designed to help people get better acquainted with both Vue.js and NativeScript-Vue, an implementation of Vue.js that lets developers write native mobile apps using Vue.
+      Join in with 2 half day workshops to learn web and mobile technologies with Vue.js.`
+    ],
+  },
   // {
   //   "name": "Call 4 papers",
   //   "title": ["A definir", "To be defined"],
