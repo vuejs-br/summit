@@ -52,7 +52,14 @@ module.exports = {
     schedule: {
       button: 'Comprar!'
     },
-    button: 'Mande seu workshop!'
+    button: 'Mande seu workshop!',
+    workshopsTime: [
+      '9hs até 13hs',
+      '14hs até 18hs',
+      '9hs até 13hs',
+      '14hs até 16hs',
+      '14hs até 18hs'
+    ]
   },
   schedule: {
     title: 'Conferência',

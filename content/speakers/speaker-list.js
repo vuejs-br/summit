@@ -37,7 +37,7 @@ export default [
   },
   {
     "name": "Jacob Schatz",
-    "title": "Lead Frontend Engineer at Gitlab",
+    "title": "Staff Engineer of Data Science",
     "img": "/img/jacob.jpeg",
     "gitlab": "jschatz1",
     "twitter": "jakecodes",
