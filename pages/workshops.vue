@@ -7,7 +7,7 @@
       br
       | {{ $t('workshops.description') }}
       br
-      strong 
+      strong
         | {{ $t('workshops.location') }}
         a(
           href="https://www.google.com.br/maps/place/Salas+Brasil+-+Paraiso/@-23.5716738,-46.6431551,15z/data=!4m5!3m4!1s0x0:0x3c65b3e7403c5a44!8m2!3d-23.5716738!4d-46.6431551",
@@ -44,14 +44,14 @@
           | {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
           br
           strong {{ $t('workshops.workshopsTime[1]') }}
-      talk(:talk="dianaWorkshop1", :desc-flex="7")
-        :markdown-it
-          **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**  
-          Comece com o Vue.js criando um aplicativo da Web estático de Pet Shop. Usando dados estáticos, você construirá uma interface de cartão para mostrar muitos cães adotáveis e, usando a API do DogCEO, carregará também imagens de cães dinamicamente, em vez de usar dados fictícios.
-        a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-          | {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
-          br
-          strong {{ $t('workshops.workshopsTime[2]') }}
+      // talk(:talk="dianaWorkshop1", :desc-flex="7")
+      //   :markdown-it
+      //     **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**
+      //     Comece com o Vue.js criando um aplicativo da Web estático de Pet Shop. Usando dados estáticos, você construirá uma interface de cartão para mostrar muitos cães adotáveis e, usando a API do DogCEO, carregará também imagens de cães dinamicamente, em vez de usar dados fictícios.
+      //   a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
+      //     | {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
+      //     br
+      //     strong {{ $t('workshops.workshopsTime[2]') }}
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
           A definir
@@ -59,14 +59,14 @@
           | {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
           br
           strong {{ $t('workshops.workshopsTime[3]') }}
-      talk(:talk="dianaWorkshop2", :desc-flex="7")
-        :markdown-it
-          **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**  
-          Neste workshop, passaremos da criação de um aplicativo da Web para criar uma experiência de adoção de animais de estimação para criar um aplicativo para dispositivos móveis para uma variação desse tema. Usando a API do CEO Dog novamente, vamos criar "Tinder for Dogs" - "Tindogs" - onde o usuário pode carregar um baralho de 15 imagens de cachorro de cada vez e deslizar para a esquerda e para a direita para "curtir" vários cães. Tudo em boa diversão!
-        a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-          | {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
-          br
-          strong {{ $t('workshops.workshopsTime[4]') }}
+      // talk(:talk="dianaWorkshop2", :desc-flex="7")
+      //   :markdown-it
+      //     **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**
+      //     Neste workshop, passaremos da criação de um aplicativo da Web para criar uma experiência de adoção de animais de estimação para criar um aplicativo para dispositivos móveis para uma variação desse tema. Usando a API do CEO Dog novamente, vamos criar "Tinder for Dogs" - "Tindogs" - onde o usuário pode carregar um baralho de 15 imagens de cachorro de cada vez e deslizar para a esquerda e para a direita para "curtir" vários cães. Tudo em boa diversão!
+      //   a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
+      //     | {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
+      //     br
+      //     strong {{ $t('workshops.workshopsTime[4]') }}
     .center
       a(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
         button.button.speaker-button {{ $t('home.hero.button1') }}
