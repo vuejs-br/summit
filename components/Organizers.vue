@@ -66,6 +66,15 @@
         .organizer__social
           a.icon.icon--github(href="https://github.com/eshinkawa" target="_blank")
           a.icon.icon--twitter(href="https://twitter.com/dushin84" target="_blank")
+    .organizers
+      .organizer
+        img.organizer__image(src="~static/img/vitorleonel.jpg" alt="Vitor Leonel")
+        .organizer__title
+          | Vitor Leonel
+        .organizer__social
+          a.icon.icon--linkedin(href="https://www.linkedin.com/in/vitorleonel" target="_blank")
+          a.icon.icon--github(href="https://github.com/vitorleonel" target="_blank")
+          a.icon.icon--twitter(href="https://twitter.com/vitorleonelf" target="_blank")
 </template>
 
 <script>
