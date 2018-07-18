@@ -55,7 +55,7 @@ module.exports = {
     button: 'Mande seu workshop!',
     workshopsTime: [
       '9hs até 13hs',
-      '14hs até 18hs',
+      '16hs até 18hs',
       '9hs até 13hs',
       '14hs até 16hs',
       '14hs até 18hs'

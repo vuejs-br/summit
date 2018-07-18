@@ -4,14 +4,17 @@
     h1 {{ $t('home.sponsors.title1') }}
     .sponsors__container
       .div.partner__image
+        a(href="https://www.accenture.com/", target="_BLANK")
+          img.partner__image(src="~assets/img/acc.png")
+      .div.partner__image
         a(href="http://stored.com.br/", target="_BLANK")
           img.partner__image(src="~assets/img/stored.png")
       .div.partner__image
-        a(href="http://jardim.in/", target="_BLANK")
-          img.partner__image(src="~assets/img/jd.png")
-      .div.partner__image
         a(href="https://www.revelo.com.br/", target="_BLANK")
           img.partner__image(src="~assets/img/revelo.png")
+      .div.partner__image
+        a(href="http://jardim.in/", target="_BLANK")
+          img.partner__image(src="~assets/img/jd.png")
 
     p("v-html"="$t('home.sponsors.description1')")
     a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button1') }}
