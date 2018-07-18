@@ -25,9 +25,15 @@ module.exports = {
     },
     sponsors: {
       title1: 'Sponsors',
+      types: {
+        gold: 'Gold',
+        silver: 'Silver',
+        bronze: 'Bronze'
+      },
       description1: 'Sponsor this initiative, have your mark on this event <br> and help us make this experience unforgettable.',
       button1: 'Be sponsor',
       title2: 'Partner communities',
+      title3: 'Supporters',
       description2: 'Communities that will assist us in the intense dissemination of the event <br> to reach as max interested parties as possible.',
       button2: 'Be partner',
     },

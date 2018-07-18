@@ -25,9 +25,15 @@ module.exports = {
     },
     sponsors: {
       title1: 'Patrocinadores',
+      types: {
+        gold: 'Ouro',
+        silver: 'Prata',
+        bronze: 'Bronze'
+      },
       description1: 'Patrocine essa iniciativa, tenha sua marca nesse evento <br> e nos auxilie a tornar essa experiência inesquecível.',
       button1: 'Seja patrocinador',
       title2: 'Comunidades parceiras',
+      title3: 'Apoiadores',
       description2: 'Comunidades que nos auxiliarão na divulgação intensa do evento <br> para alcançar o máximo de interessados possível.',
       button2: 'Seja parceiro',
     },

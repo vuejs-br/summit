@@ -2,22 +2,40 @@
 .section.sponsors-section.center
   .container__inner
     h1 {{ $t('home.sponsors.title1') }}
+    h2 {{ $t('home.sponsors.types.gold') }}
     .sponsors__container
-      .div.partner__image
+      .div.partner__image--special
         a(href="https://www.accenture.com/", target="_BLANK")
-          img.partner__image(src="~assets/img/acc.png")
-      .div.partner__image
-        a(href="http://stored.com.br/", target="_BLANK")
-          img.partner__image(src="~assets/img/stored.png")
-      .div.partner__image
-        a(href="https://www.revelo.com.br/", target="_BLANK")
-          img.partner__image(src="~assets/img/revelo.png")
-      .div.partner__image
-        a(href="http://jardim.in/", target="_BLANK")
-          img.partner__image(src="~assets/img/jd.png")
+          img.partner__image--special(src="~assets/img/acc.png")
+    h2 {{ $t('home.sponsors.types.silver') }}
+      .sponsors__container
+        .div.partner__image
+          a(href="https://www.revelo.com.br/", target="_BLANK")
+            img.partner__image(src="~assets/img/revelo.png")
+        .div.partner__image
+          a(href="http://jardim.in/", target="_BLANK")
+            img.partner__image(src="~assets/img/jd.png")
+    h2 {{ $t('home.sponsors.types.bronze') }}
+      .sponsors__container
+        .div.partner__image(style="width: 100px;")
+          a(href="http://stored.com.br/", target="_BLANK")
+            img.partner__image(src="~assets/img/stored.png", style="width: 100px;")
 
     p("v-html"="$t('home.sponsors.description1')")
     a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button1') }}
+
+    .container__inner
+      h1 {{ $t('home.sponsors.title3') }}
+      .sponsors__container
+        .div.partner__image(style="width: 100px;")
+          a(href="https://www.infoq.com/br/", target="_BLANK")
+            img.partner__image(src="~assets/img/infoq.png", style="width: 100px;")
+        .div.partner__image(style="width: 100px;")
+          a(href="https://www.infoq.com/br/", target="_BLANK")
+            img.partner__image(src="~assets/img/novatec.png", style="width: 100px;")
+        .div.partner__image(style="width: 100px;")
+          a(href="http://logcomex.com/", target="_BLANK")
+            img.partner__image(src="~assets/img/logc.png", style="width: 100px;")
 
     h2 {{ $t('home.sponsors.title2') }}
     .sponsors__container
@@ -101,6 +119,10 @@ export default {
   margin: 0 12px 20px 12px
 
 .partner__image--special
-  width: 320px
-  margin-bottom: 50px
+  display: inline-block
+  vertical-align: middle
+  max-width: 90%
+  width: 380px
+  height: auto
+  margin: 0 12px 20px 12px
 </style>
