@@ -34,14 +34,14 @@
         :markdown-it
             We'll cover everything from documenting and enforcing best practices, to writing robust, fast, and debuggable unit and **end-to-end tests**. This will help you and your **team not only avoid mistakes**, but also **better communicate**, end bikeshedding, and build amazing features faster.
         a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-          | {{ $t('workshops.schedule.button') }} - R$170.00 - 4h
+          | {{ $t('workshops.schedule.button') }} - R$280.00 - 4h
           br
           strong {{ $t('workshops.workshopsTime[0]') }}
       talk(:talk="blakeWorkshop", :desc-flex="7")
         :markdown-it
           Introdução ao Vuex através de exemplos fáceis e exercícios. Você aprenderá como integrar a Vuex em seus projetos atuais seguindo as melhores práticas!
         a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-          | {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
+          | {{ $t('workshops.schedule.button') }} - R$160.00 - 2h
           br
           strong {{ $t('workshops.workshopsTime[1]') }}
       // talk(:talk="dianaWorkshop1", :desc-flex="7")
@@ -56,7 +56,7 @@
         :markdown-it
           A definir
         a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-          | {{ $t('workshops.schedule.button') }} - R$110.00 - 2h
+          | {{ $t('workshops.schedule.button') }} - R$160.00 - 2h
           br
           strong {{ $t('workshops.workshopsTime[3]') }}
       // talk(:talk="dianaWorkshop2", :desc-flex="7")
