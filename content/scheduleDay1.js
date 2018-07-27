@@ -113,28 +113,19 @@ export default [
     duration: "40min"
   },
   {
-    type: "other",
-    img: "/img/ic-lighting-talks.svg",
-    imgDark: true,
-    topic: "Lightning Talks",
+    type: "talk",
+    img: "/img/maujor.jpeg",
+    topic: "O que o Maujor viu no Vue?",
+    author: ["Palestra", "Lecture"],
+    social: [
+      { 
+        "twitter": "https://twitter.com/maujor"
+      }
+    ],
+    authorInfo: ["Maujor (Maurício Samy Silva)", "Maujor (Maurício Samy Silva)"],
+    description: "Depoimento de um estudioso das tecnologias Frontend sobre suas primeiras impressões ao iniciar-se no universo Vue.js",
     startTime: "14:00",
-    duration: "10min"
-  },
-  {
-    type: "other",
-    img: "/img/ic-lighting-talks.svg",
-    imgDark: true,
-    topic: "Lightning Talks",
-    startTime: "14:10",
-    duration: "10min"
-  },
-  {
-    type: "other",
-    img: "/img/ic-lighting-talks.svg",
-    imgDark: true,
-    topic: "Lightning Talks",
-    startTime: "14:20",
-    duration: "10min"
+    duration: "30min"
   },
   {
     type: "other",

@@ -121,14 +121,21 @@ export default [
       Join in with 2 half day workshops to learn web and mobile technologies with Vue.js.`
     ],
   },
-  // {
-  //   "name": "Call 4 papers",
-  //   "title": ["A definir", "To be defined"],
-  //   "img": "/img/avatar.jpg",
-  //   "github": "#",
-  //   "twitter": "#",
-  //   "quote": ["Submissão da comunidade", "Community submission"],
-  // },
+  {
+    "name": "Maujor (Maurício Samy Silva)",
+    "title": ["Dinossauro das CSS", "Dinossauro das CSS"],
+    "img": "/img/maujor.jpeg",
+    "twitter": "maujor",
+    "quote": [`
+    Maurício Samy Silva também conhecido como "Dinossauro das CSS" ou simplesmente Maujor® é graduado em Engenharia Civil pelo Instituto Militar de Engenharia (IME). Exerceu o magistério paralelamente à Engenharia, tendo sido, ao longo de 25 anos, professor de Geometria Descritiva e Matemática.
+    Sua experiência com desenvolvimento web iniciou-se em 1999, após se aposentar aos 56 anos e conhecer o FrontPage.
+    Em 2002, por acaso teve seu primeiro contato com o site do W3C, começou a pesquisar e estudar os Padrões Web e não parou mais.
+    Maujor é autor de vários livros e mantém o site https://maujor.com.`,
+    `Maurício Samy Silva também conhecido como "Dinossauro das CSS" ou simplesmente Maujor® é graduado em Engenharia Civil pelo Instituto Militar de Engenharia (IME). Exerceu o magistério paralelamente à Engenharia, tendo sido, ao longo de 25 anos, professor de Geometria Descritiva e Matemática.
+    Sua experiência com desenvolvimento web iniciou-se em 1999, após se aposentar aos 56 anos e conhecer o FrontPage.
+    Em 2002, por acaso teve seu primeiro contato com o site do W3C, começou a pesquisar e estudar os Padrões Web e não parou mais.
+    Maujor é autor de vários livros e mantém o site https://maujor.com.`],
+  },
   // {
   //   "name": "Call 4 papers",
   //   "title": ["A definir", "To be defined"],
