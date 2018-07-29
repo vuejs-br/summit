@@ -136,14 +136,16 @@ export default [
     Em 2002, por acaso teve seu primeiro contato com o site do W3C, começou a pesquisar e estudar os Padrões Web e não parou mais.
     Maujor é autor de vários livros e mantém o site https://maujor.com.`],
   },
-  // {
-  //   "name": "Call 4 papers",
-  //   "title": ["A definir", "To be defined"],
-  //   "img": "/img/avatar.jpg",
-  //   "github": "#",
-  //   "twitter": "#",
-  //   "quote": ["Submissão da comunidade", "Community submission"],
-  // },
+  {
+    "name": "Pokemaobr (Rodrigo Cardoso)",
+    "title": ["Community Manager ", "Community Manager "],
+    "img": "/img/poke.jpeg",
+    "twitter": "pokemaobr",
+    "quote": [
+      `Bacharel em Matemática Aplicada e Computacional pela Universidade Federal Rural do Rio de Janeiro, MBA em Engenharia de Software Orientada para Serviço pela Metrocamp. Community Manager no iMasters. Programador desde 1999. Evangelista PHPSP. Desenvolve sistemas desde batalhas Pokemon para mIRC até robôs automatizadores de tarefas.`,
+      `Bacharel em Matemática Aplicada e Computacional pela Universidade Federal Rural do Rio de Janeiro, MBA em Engenharia de Software Orientada para Serviço pela Metrocamp. Community Manager no iMasters. Programador desde 1999. Evangelista PHPSP. Desenvolve sistemas desde batalhas Pokemon para mIRC até robôs automatizadores de tarefas.`
+    ],
+  },
   // {
   //   "name": "Call 4 papers",
   //   "title": ["A definir", "To be defined"],

@@ -97,6 +97,21 @@ export default [
   },
   {
     type: "talk",
+    img: "/img/maujor.jpeg",
+    topic: "O que o Maujor viu no Vue?",
+    author: ["Palestra", "Lecture"],
+    social: [
+      { 
+        "twitter": "https://twitter.com/maujor"
+      }
+    ],
+    authorInfo: ["Maujor (Maurício Samy Silva)", "Maujor (Maurício Samy Silva)"],
+    description: "Depoimento de um estudioso das tecnologias Frontend sobre suas primeiras impressões ao iniciar-se no universo Vue.js",
+    startTime: "14:00",
+    duration: "30min"
+  },
+  {
+    type: "talk",
     img: "/img/gerad.jpeg",
     topic: "GraphQL até o infinito",
     author: ["Palestra", "Lecture"],
@@ -114,24 +129,11 @@ export default [
   },
   {
     type: "talk",
-    img: "/img/maujor.jpeg",
-    topic: "O que o Maujor viu no Vue?",
+    img: "/img/poke.jpeg",
+    topic: "Vue zuar o JS",
     author: ["Palestra", "Lecture"],
-    social: [
-      { 
-        "twitter": "https://twitter.com/maujor"
-      }
-    ],
-    authorInfo: ["Maujor (Maurício Samy Silva)", "Maujor (Maurício Samy Silva)"],
-    description: "Depoimento de um estudioso das tecnologias Frontend sobre suas primeiras impressões ao iniciar-se no universo Vue.js",
-    startTime: "14:00",
-    duration: "30min"
-  },
-  {
-    type: "other",
-    img: "/img/ic-lighting-talks.svg",
-    imgDark: true,
-    topic: "Lightning Talks",
+    authorInfo: ["Pokemaobr (Rodrigo Cardoso)", "Pokemaobr (Rodrigo Cardoso)"],
+    description: "Stand-up do pokemao!",
     startTime: "14:30",
     duration: "10min"
   },
