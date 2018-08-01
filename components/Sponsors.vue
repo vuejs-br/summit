@@ -34,6 +34,9 @@
           a(href="https://www.infoq.com/br/", target="_BLANK")
             img.partner__image(src="~assets/img/novatec.png", style="width: 100px;")
         .div.partner__image(style="width: 100px;")
+          a(href="https://imasters.com.br/", target="_BLANK")
+            img.partner__image(src="~assets/img/imasters.png", style="width: 100px;")
+        .div.partner__image(style="width: 100px;")
           a(href="http://logcomex.com/", target="_BLANK")
             img.partner__image(src="~assets/img/logc.png", style="width: 100px;")
 
