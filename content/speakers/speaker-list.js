@@ -92,6 +92,20 @@ export default [
     ]
   },
   {
+    "name": "Débora Duarte",
+    "title": "Desenvolvedora Front-end",
+    "img": "/img/deb.jpg",
+    "twitter": "deboracardu",
+    "quote": [
+      `Dev lover, feminista e rata de eventos, formada em técnico em informática. front-end e uma das organizadoras
+      da maior conferência de javascript do universo, entre outros eventos. lead do developer circles from facebook
+      porto alegre. youtuber, apresenta o próprio canal, o error404, e também a braziljs weekly`,
+      `Dev lover, feminista e rata de eventos, formada em técnico em informática. front-end e uma das organizadoras
+      da maior conferência de javascript do universo, entre outros eventos. lead do developer circles from facebook
+      porto alegre. youtuber, apresenta o próprio canal, o error404, e também a braziljs weekly`
+    ]
+  },
+  {
     "name": "Patrick Stival",
     "title": "Desenvolvedor Full-Stack Javascript",
     "img": "/img/patric.jpg",

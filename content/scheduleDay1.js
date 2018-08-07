@@ -138,20 +138,14 @@ export default [
     duration: "10min"
   },
   {
-    type: "other",
-    img: "/img/ic-lighting-talks.svg",
-    imgDark: true,
-    topic: "Lightning Talks",
+    type: "talk",
+    img: "/img/deb.jpg",
+    topic: "Rotas são lindas e com vue são perfeitas",
+    author: ["Palestra", "Lecture"],
+    authorInfo: ["Débora Duarte", "Débora Duarte"],
+    description: "Rotas podem ser sinônimo de dor de cabeça. Não se estivermos falando de Vue. Com toda a praticidade e facilidade do Vue, fazer rotas se torna algo simples e divertido.",
     startTime: "14:40",
-    duration: "10min"
-  },
-  {
-    type: "other",
-    img: "/img/ic-lighting-talks.svg",
-    imgDark: true,
-    topic: "Lightning Talks",
-    startTime: "14:50",
-    duration: "10min"
+    duration: "20min"
   },
   {
     type: "other",
