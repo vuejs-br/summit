@@ -12,6 +12,9 @@
       a.post-section__button.button.post-section__first-button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
         | {{ $t('home.hero.button1') }}
       br
+      a.button.button--especial(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
+        | {{ $t('home.hero.button3') }}
+      br
       | {{ $t('home.hero.obs') }}
 </template>
 
@@ -112,4 +115,13 @@ export default {
 
   @media #{$large-up}
     font-size: 26px
+
+.button--especial
+  margin-top: 10px
+  border: 1px solid $color-green--dark
+  color: $color-green--dark
+  background-color: white
+  
+  &:hover
+    color: white
 </style>

@@ -12,6 +12,7 @@ module.exports = {
       country: 'Brazil',
       button1: 'Conference and Workshop registration',
       button2: 'Conference registration',
+      button3: 'Online conference registration',
       obs: '* Workshops are sold separately.',
       description: 'The biggest Vue.js experience in Latin America!',
     },
