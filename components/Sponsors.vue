@@ -76,6 +76,8 @@
           img.partner__image(src="~assets/img/gdg-rj.png", title="1939 membros")
         a(href="https://www.meetup.com/Vuejs-at-BH/", target="_BLANK")
           img.partner__image(src="~assets/img/vue-bh.jpg", title="410 membros")
+        a(href="https://www.meetup.com/pt-BR/Vue-js-Norte/", target="_BLANK")
+          img.partner__image(src="~assets/img/vue-norte.jpg", title="50 membros")
 
     p("v-html"="$t('home.sponsors.description2')")
     a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button2') }}
