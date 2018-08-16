@@ -49,7 +49,7 @@
           **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**
           Comece com o Vue.js criando um aplicativo da Web estático de Pet Shop. Usando dados estáticos, você construirá uma interface de cartão para mostrar muitos cães adotáveis e, usando a API do DogCEO, carregará também imagens de cães dinamicamente, em vez de usar dados fictícios.
         a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-          | {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
+          | {{ $t('workshops.schedule.button2') }} - 4h
           br
           strong {{ $t('workshops.workshopsTime[2]') }}
       talk(:talk="sarahWorkshop", :desc-flex="7")
@@ -64,7 +64,7 @@
           **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**
           Neste workshop, passaremos da criação de um aplicativo da Web para criar uma experiência de adoção de animais de estimação para criar um aplicativo para dispositivos móveis para uma variação desse tema. Usando a API do CEO Dog novamente, vamos criar "Tinder for Dogs" - "Tindogs" - onde o usuário pode carregar um baralho de 15 imagens de cachorro de cada vez e deslizar para a esquerda e para a direita para "curtir" vários cães. Tudo em boa diversão!
         a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-          | {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
+          | {{ $t('workshops.schedule.button2') }} - 4h
           br
           strong {{ $t('workshops.workshopsTime[4]') }}
     .center

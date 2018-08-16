@@ -57,7 +57,8 @@ module.exports = {
       line3: '- Your favorite code editor',
     },
     schedule: {
-      button: 'Buy!'
+      button: 'Buy!',
+      button2: 'Free!',
     },
     button: 'Send your workshop!',
     workshopsTime: [
