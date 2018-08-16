@@ -1,13 +1,13 @@
 <template lang="pug">
 .section.sponsors-section.center
   .container__inner
-    h1 {{ $t('home.sponsors.title1') }}
-    h2 {{ $t('home.sponsors.types.gold') }}
+    h2 {{ $t('home.sponsors.title1') }}
+    h3 {{ $t('home.sponsors.types.gold') }}
     .sponsors__container
       .div.partner__image--special
         a(href="https://www.accenture.com/", target="_BLANK")
           img.partner__image--special(src="~assets/img/acc.png")
-    h2 {{ $t('home.sponsors.types.silver') }}
+    h3 {{ $t('home.sponsors.types.silver') }}
       .sponsors__container
         .div.partner__image
           a(href="https://www.revelo.com.br/", target="_BLANK")
@@ -15,17 +15,20 @@
         .div.partner__image
           a(href="http://jardim.in/", target="_BLANK")
             img.partner__image(src="~assets/img/jd.png")
-    h2 {{ $t('home.sponsors.types.bronze') }}
+    h3 {{ $t('home.sponsors.types.bronze') }}
       .sponsors__container
         .div.partner__image(style="width: 100px;")
           a(href="http://stored.com.br/", target="_BLANK")
             img.partner__image(src="~assets/img/stored.png", style="width: 100px;")
+        .div.partner__image(style="width: 100px;")
+          a(href="http://impulso.work/", target="_BLANK")
+            img.partner__image(src="~assets/img/impulso-work-logo.svg", style="width: 100px;")
 
     p("v-html"="$t('home.sponsors.description1')")
     a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button1') }}
 
+    h2 {{ $t('home.sponsors.title3') }}
     .container__inner
-      h1 {{ $t('home.sponsors.title3') }}
       .sponsors__container
         .div.partner__image(style="width: 100px;")
           a(href="https://www.infoq.com/br/", target="_BLANK")
