@@ -123,12 +123,12 @@ export default [
     "github": "alphacentauri82",
     "twitter": "cotufa82",
     "quote": [
-      `DevOps/FullStack Developer & Director of Vue Vixens Argentina.
+      `DevOps/FullStack Developer & Director of Vue Vixens LATAM.
       Vue Vixens Skulk
       Vue Vixens is an initiative created by Jen Looper, a Senior Developer Advocate at Progress, creators of NativeScript, Kendo UI, Open Edge, and more. Vue Vixens' mission is to create workshops to teach Vue.js in a cool and fun way to 'foxy people who identify as women'.
       These workshops are designed to help people get better acquainted with both Vue.js and NativeScript-Vue, an implementation of Vue.js that lets developers write native mobile apps using Vue.
       Join in with 2 half day workshops to learn web and mobile technologies with Vue.js.`,
-      `DevOps/FullStack Developer & Director of Vue Vixens Argentina.
+      `DevOps/FullStack Developer & Director of Vue Vixens LATAM.
       Vue Vixens Skulk
       Vue Vixens is an initiative created by Jen Looper, a Senior Developer Advocate at Progress, creators of NativeScript, Kendo UI, Open Edge, and more. Vue Vixens' mission is to create workshops to teach Vue.js in a cool and fun way to 'foxy people who identify as women'.
       These workshops are designed to help people get better acquainted with both Vue.js and NativeScript-Vue, an implementation of Vue.js that lets developers write native mobile apps using Vue.
