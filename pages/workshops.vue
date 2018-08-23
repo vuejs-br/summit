@@ -54,7 +54,7 @@
           strong {{ $t('workshops.workshopsTime[2]') }}
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
-          A definir
+          We will go through common external JavaScript libraries, how to implement them into Vue and VueX, and make them reactive. Charts, CSS frameworks, utilities, http clients and more.
         a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
           | {{ $t('workshops.schedule.button') }} - R$160.00 - 2h
           br
