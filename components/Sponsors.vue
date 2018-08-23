@@ -23,6 +23,9 @@
         .div.partner__image(style="width: 100px;")
           a(href="http://impulso.work/", target="_BLANK")
             img.partner__image(src="~assets/img/impulso-work-logo.svg", style="width: 100px;")
+        .div.partner__image(style="width: 100px;")
+          a(href="http://mercadolivre.com/", target="_BLANK")
+            img.partner__image(src="~assets/img/ml.png", style="width: 100px;")
 
     p("v-html"="$t('home.sponsors.description1')")
     a.button(href="mailto:vuejssummit@gmail.com") {{ $t('home.sponsors.button1') }}
