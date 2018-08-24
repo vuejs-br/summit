@@ -19,7 +19,7 @@ export default [
   {
     type: "talk",
     img: "/img/chris.jpg",
-    topic: ["A definir", "To be defined"],
+    topic: ["Surpresa!", "Surprise!"],
     author: ["Palestra", "Lecture"],
     speakerLabel: "Core Commiter",
     social: [
