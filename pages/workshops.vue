@@ -12,9 +12,9 @@
         a(
           href="https://www.google.com.br/maps/place/Av.+das+Na%C3%A7%C3%B5es+Unidas,+3003+-+Bonfim,+Osasco+-+SP,+06233-200/@-23.5240151,-46.7627758,17z/data=!3m1!4b1!4m5!3m4!1s0x94ceff25295ec1a1:0xa77b87201dfde53f!8m2!3d-23.52402!4d-46.7605871",
           target="_BLANK")  Mercado Livre - Melicidade
-        br
-        span
-          | Av. das Nações Unidas, 3003 - Bonfim, Osasco - SP, 06233-200
+      br
+      span
+        | Av. das Nações Unidas, 3003 - Bonfim, Osasco - SP, 06233-200
       br
       | {{ $t('home.hero.obs') }}
       //- br
