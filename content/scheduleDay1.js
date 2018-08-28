@@ -101,7 +101,7 @@ export default [
     topic: "O que o Maujor viu no Vue?",
     author: ["Palestra", "Lecture"],
     social: [
-      { 
+      {
         "twitter": "https://twitter.com/maujor"
       }
     ],
@@ -139,11 +139,11 @@ export default [
   },
   {
     type: "talk",
-    img: "/img/deb.jpg",
-    topic: "Rotas são lindas e com vue são perfeitas",
+    img: "/img/caio.jpg",
+    topic: "Melhorias de performance com Webpack",
     author: ["Palestra", "Lecture"],
-    authorInfo: ["Débora Duarte", "Débora Duarte"],
-    description: "Rotas podem ser sinônimo de dor de cabeça. Não se estivermos falando de Vue. Com toda a praticidade e facilidade do Vue, fazer rotas se torna algo simples e divertido.",
+    authorInfo: ["Caio Incau", "Caio Incau"],
+    description: "Escreva o código mais legível possível e deixe que o Webpack se encarregue de melhorar sua performance para o navegador. Vamos cobrir vários tópicos e mostrar que é possível com pouco tempo, reduzir muito o tempo de carregamento de sua aplicação, usando boas práticas do Webpack.",
     startTime: "14:40",
     duration: "20min"
   },
