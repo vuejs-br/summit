@@ -92,17 +92,14 @@ export default [
     ]
   },
   {
-    "name": "Débora Duarte",
-    "title": "Desenvolvedora Front-end",
-    "img": "/img/deb.jpg",
-    "twitter": "deboracardu",
+    "name": "Caio Incau",
+    "title": "Front End Leader at Wirecard",
+    "img": "/img/caio.jpg",
+    "twitter": "icaioincau",
+    "github": "caioincau",
     "quote": [
-      `Dev lover, feminista e rata de eventos, formada em técnico em informática. front-end e uma das organizadoras
-      da maior conferência de javascript do universo, entre outros eventos. lead do developer circles from facebook
-      porto alegre. youtuber, apresenta o próprio canal, o error404, e também a braziljs weekly`,
-      `Dev lover, feminista e rata de eventos, formada em técnico em informática. front-end e uma das organizadoras
-      da maior conferência de javascript do universo, entre outros eventos. lead do developer circles from facebook
-      porto alegre. youtuber, apresenta o próprio canal, o error404, e também a braziljs weekly`
+      `Desenvolvedor apaixonado por Vue, trabalhando com o framework há mais de dois anos e apaixonado por projetos que impactem a vida das pessoas, atualmente liderando a equipe de Front End da Wirecard, maior banco da Alemanha`,
+      `Desenvolvedor apaixonado por Vue, trabalhando com o framework há mais de dois anos e apaixonado por projetos que impactem a vida das pessoas, atualmente liderando a equipe de Front End da Wirecard, maior banco da Alemanha`,
     ]
   },
   {
