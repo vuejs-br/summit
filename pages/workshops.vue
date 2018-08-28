@@ -10,8 +10,11 @@
       strong
         | {{ $t('workshops.location') }}
         a(
-          href="https://www.google.com.br/maps/place/Salas+Brasil+-+Paraiso/@-23.5716738,-46.6431551,15z/data=!4m5!3m4!1s0x0:0x3c65b3e7403c5a44!8m2!3d-23.5716738!4d-46.6431551",
-          target="_BLANK")  Espaço Paraíso
+          href="https://www.google.com.br/maps/place/Av.+das+Na%C3%A7%C3%B5es+Unidas,+3003+-+Bonfim,+Osasco+-+SP,+06233-200/@-23.5240151,-46.7627758,17z/data=!3m1!4b1!4m5!3m4!1s0x94ceff25295ec1a1:0xa77b87201dfde53f!8m2!3d-23.52402!4d-46.7605871",
+          target="_BLANK")  Mercado Livre - Melicidade
+        br
+        span
+          | Av. das Nações Unidas, 3003 - Bonfim, Osasco - SP, 06233-200
       br
       | {{ $t('home.hero.obs') }}
       //- br
