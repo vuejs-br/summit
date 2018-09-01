@@ -19,7 +19,7 @@ export default [
   {
     type: "talk",
     img: "/img/chris.jpg",
-    topic: ["A definir", "To be defined"],
+    topic: ["Surpresa!", "Surprise!"],
     author: ["Palestra", "Lecture"],
     speakerLabel: "Core Commiter",
     social: [
@@ -101,13 +101,13 @@ export default [
     topic: "O que o Maujor viu no Vue?",
     author: ["Palestra", "Lecture"],
     social: [
-      { 
+      {
         "twitter": "https://twitter.com/maujor"
       }
     ],
     authorInfo: ["Maujor (Maurício Samy Silva)", "Maujor (Maurício Samy Silva)"],
     description: "Depoimento de um estudioso das tecnologias Frontend sobre suas primeiras impressões ao iniciar-se no universo Vue.js",
-    startTime: "14:00",
+    startTime: "13:20",
     duration: "30min"
   },
   {
@@ -124,7 +124,7 @@ export default [
     ],
     authorInfo: ["Gerard Sans", "Gerard Sans"],
     description: "A equipe do Apollo acaba de lançar a nova versão do Apollo Client. Já existe muita publicidade em torno da nova arquitetura usando uma nova abordagem modular e flexível. Nesta palestra, vamos colocá-lo para testá-lo junto com o Vue cobrindo consultas, mutações e em tempo real. Preparar-se!",
-    startTime: "13:20",
+    startTime: "14:00",
     duration: "40min"
   },
   {
@@ -138,20 +138,14 @@ export default [
     duration: "10min"
   },
   {
-    type: "other",
-    img: "/img/ic-lighting-talks.svg",
-    imgDark: true,
-    topic: "Lightning Talks",
+    type: "talk",
+    img: "/img/caio.jpg",
+    topic: "Melhorias de performance com Webpack",
+    author: ["Palestra", "Lecture"],
+    authorInfo: ["Caio Incau", "Caio Incau"],
+    description: "Escreva o código mais legível possível e deixe que o Webpack se encarregue de melhorar sua performance para o navegador. Vamos cobrir vários tópicos e mostrar que é possível com pouco tempo, reduzir muito o tempo de carregamento de sua aplicação, usando boas práticas do Webpack.",
     startTime: "14:40",
-    duration: "10min"
-  },
-  {
-    type: "other",
-    img: "/img/ic-lighting-talks.svg",
-    imgDark: true,
-    topic: "Lightning Talks",
-    startTime: "14:50",
-    duration: "10min"
+    duration: "20min"
   },
   {
     type: "other",

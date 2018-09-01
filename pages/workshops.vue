@@ -10,8 +10,11 @@
       strong
         | {{ $t('workshops.location') }}
         a(
-          href="https://www.google.com.br/maps/place/Salas+Brasil+-+Paraiso/@-23.5716738,-46.6431551,15z/data=!4m5!3m4!1s0x0:0x3c65b3e7403c5a44!8m2!3d-23.5716738!4d-46.6431551",
-          target="_BLANK")  Espaço Paraíso
+          href="https://www.google.com.br/maps/place/Av.+das+Na%C3%A7%C3%B5es+Unidas,+3003+-+Bonfim,+Osasco+-+SP,+06233-200/@-23.5240151,-46.7627758,17z/data=!3m1!4b1!4m5!3m4!1s0x94ceff25295ec1a1:0xa77b87201dfde53f!8m2!3d-23.52402!4d-46.7605871",
+          target="_BLANK")  Mercado Livre - Melicidade
+      br
+      span
+        | Av. das Nações Unidas, 3003 - Bonfim, Osasco - SP, 06233-200
       br
       | {{ $t('home.hero.obs') }}
       //- br
@@ -44,29 +47,29 @@
           | {{ $t('workshops.schedule.button') }} - R$160.00 - 2h
           br
           strong {{ $t('workshops.workshopsTime[1]') }}
-      // talk(:talk="dianaWorkshop1", :desc-flex="7")
-      //   :markdown-it
-      //     **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**
-      //     Comece com o Vue.js criando um aplicativo da Web estático de Pet Shop. Usando dados estáticos, você construirá uma interface de cartão para mostrar muitos cães adotáveis e, usando a API do DogCEO, carregará também imagens de cães dinamicamente, em vez de usar dados fictícios.
-      //   a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-      //     | {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
-      //     br
-      //     strong {{ $t('workshops.workshopsTime[2]') }}
+      talk(:talk="dianaWorkshop1", :desc-flex="7")
+        :markdown-it
+          **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**
+          Comece com o Vue.js criando um aplicativo da Web estático de Pet Shop. Usando dados estáticos, você construirá uma interface de cartão para mostrar muitos cães adotáveis e, usando a API do DogCEO, carregará também imagens de cães dinamicamente, em vez de usar dados fictícios.
+        a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
+          | {{ $t('workshops.schedule.button2') }} - 4h
+          br
+          strong {{ $t('workshops.workshopsTime[2]') }}
       talk(:talk="sarahWorkshop", :desc-flex="7")
         :markdown-it
-          A definir
+          We will go through common external JavaScript libraries, how to implement them into Vue and VueX, and make them reactive. Charts, CSS frameworks, utilities, http clients and more.
         a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
           | {{ $t('workshops.schedule.button') }} - R$160.00 - 2h
           br
           strong {{ $t('workshops.workshopsTime[3]') }}
-      // talk(:talk="dianaWorkshop2", :desc-flex="7")
-      //   :markdown-it
-      //     **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**
-      //     Neste workshop, passaremos da criação de um aplicativo da Web para criar uma experiência de adoção de animais de estimação para criar um aplicativo para dispositivos móveis para uma variação desse tema. Usando a API do CEO Dog novamente, vamos criar "Tinder for Dogs" - "Tindogs" - onde o usuário pode carregar um baralho de 15 imagens de cachorro de cada vez e deslizar para a esquerda e para a direita para "curtir" vários cães. Tudo em boa diversão!
-      //   a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
-      //     | {{ $t('workshops.schedule.button') }} - R$110.00 - 4h
-      //     br
-      //     strong {{ $t('workshops.workshopsTime[4]') }}
+      talk(:talk="dianaWorkshop2", :desc-flex="7")
+        :markdown-it
+          **Vue Vixens Workshop - Para mulheres ou pessoas que se identificam como.**
+          Neste workshop, passaremos da criação de um aplicativo da Web para criar uma experiência de adoção de animais de estimação para criar um aplicativo para dispositivos móveis para uma variação desse tema. Usando a API do CEO Dog novamente, vamos criar "Tinder for Dogs" - "Tindogs" - onde o usuário pode carregar um baralho de 15 imagens de cachorro de cada vez e deslizar para a esquerda e para a direita para "curtir" vários cães. Tudo em boa diversão!
+        a.button(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915" slot="ticket")
+          | {{ $t('workshops.schedule.button2') }} - 4h
+          br
+          strong {{ $t('workshops.workshopsTime[4]') }}
     .center
       a(href="https://www.eventbrite.com.br/e/vuejs-summit-18-tickets-45368001915", target="_BLANK")
         button.button.speaker-button {{ $t('home.hero.button1') }}
