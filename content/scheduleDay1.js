@@ -45,7 +45,7 @@ export default [
       }
     ],
     authorInfo: ["Jacob Schatz", "Jacob Schatz"],
-    description: "I'll talk about the internals of Vue, and like the compiler and the abstract syntax trees it generates. As well as how to use babel core with postcss and more others to do really crazy things.",
+    description: "Jacob Schatz talks about the internal workings of vuex, how best to use it and how they use it at GitLab and Meltano.",
     startTime: "9:40",
     duration: "40min"
   },
@@ -112,6 +112,23 @@ export default [
   },
   {
     type: "talk",
+    img: "/img/edd.png",
+    topic: "Testing vuex",
+    author: ["Palestra", "Lecture"],
+    speakerLabel: "Core Commiter",
+    social: [
+      {
+        "github": "https://github.com/eddyerburgh",
+        "twitter": "https://twitter.com/EddYerburgh"
+      }
+    ],
+    authorInfo: ["Edd Yerburgh", "Edd Yerburgh"],
+    description: "How to write unit tests for applications that use Vuex.",
+    startTime: "13:50",
+    duration: "30min"
+  },
+  {
+    type: "talk",
     img: "/img/gerad.jpeg",
     topic: "GraphQL até o infinito",
     author: ["Palestra", "Lecture"],
@@ -124,7 +141,7 @@ export default [
     ],
     authorInfo: ["Gerard Sans", "Gerard Sans"],
     description: "A equipe do Apollo acaba de lançar a nova versão do Apollo Client. Já existe muita publicidade em torno da nova arquitetura usando uma nova abordagem modular e flexível. Nesta palestra, vamos colocá-lo para testá-lo junto com o Vue cobrindo consultas, mutações e em tempo real. Preparar-se!",
-    startTime: "14:00",
+    startTime: "14:20",
     duration: "40min"
   },
   {
@@ -134,7 +151,7 @@ export default [
     author: ["Palestra", "Lecture"],
     authorInfo: ["Pokemaobr (Rodrigo Cardoso)", "Pokemaobr (Rodrigo Cardoso)"],
     description: "Stand-up do pokemao!",
-    startTime: "14:30",
+    startTime: "15:00",
     duration: "10min"
   },
   {
@@ -144,7 +161,7 @@ export default [
     author: ["Palestra", "Lecture"],
     authorInfo: ["Caio Incau", "Caio Incau"],
     description: "Escreva o código mais legível possível e deixe que o Webpack se encarregue de melhorar sua performance para o navegador. Vamos cobrir vários tópicos e mostrar que é possível com pouco tempo, reduzir muito o tempo de carregamento de sua aplicação, usando boas práticas do Webpack.",
-    startTime: "14:40",
+    startTime: "15:10",
     duration: "20min"
   },
   {
@@ -152,7 +169,7 @@ export default [
     // img: "/img/ic-happy.svg",
     img: "/img/ic-coffee-break.svg",
     topic: "Coffee time",
-    startTime: "15:00",
+    startTime: "15:30",
     duration: "35min"
   },
   {
@@ -169,7 +186,7 @@ export default [
     ],
     authorInfo: ["Erick Petrucelli", "Erick Petrucelli"],
     description: "Em um mundo baseado em componentes, por muito tempo estivemos tão focados no client-side e nossos incríveis SPA... De repente, SSR se tornou um daqueles estudos quase obrigatórios! O quanto isso é realmente relevante no contexto do Vue? O que o time principal preparou para abordar tal realidade? Como o Nuxt entra nesse contexto? E afinal, o que realmente vale a pena utilizar? Essas e outras perguntas serão alvo de reflexões e críticas durante esta talk, enquanto abordamos dicas e outras curiosidades relacionadas.",
-    startTime: "15:35",
+    startTime: "16:05",
     duration: "35min"
   },
   {
@@ -185,7 +202,7 @@ export default [
     ],
     authorInfo: ["William Marques", "William Marques"],
     description: "Essa talk tem como principal objetivo explorar alguns conceitos avançados do VueJS. Se você deseja automatizar seus projetos, mas tem receio de criar mais problemas ou quer fazer estruturas mais organizadas, mas não sabe como, pode conseguir algumas dicas de rumos a seguir. Serão abordados o uso de mixins, extends, dynamic components, modules, function mode nas props do VueRouter, além do uso de Services e protótipos para a infra do seu projeto.",
-    startTime: "16:10",
+    startTime: "16:40",
     duration: "40min"
   },
   {
@@ -201,7 +218,7 @@ export default [
     ],
     authorInfo: ["Patrick Stival", "Patrick Stival"],
     description: "Nessa talk falarei sobre a utilização do BaaS Firebase com o Vue.js, dois sistemas reativos que funcionam muito bem em conjunto. Será abordado um pouco sobre os melhores casos de uso para a utilização de um Back-end as a Service, mas com o foco em apresentar as facilidades no desenvolvimento que o Firebase proporciona tanto no código quanto na visualização geral da aplicação.",
-    startTime: "16:50",
+    startTime: "17:20",
     duration: "30min"
   },
   {
@@ -217,24 +234,7 @@ export default [
     ],
     authorInfo: ["Luigui Delyer", "Luigui Delyer"],
     description: "Componentizar apps inteiros faz parte do nosso dia-a-dia, porém, até hoje nos perdemos na hora de separar essas partezinhas que constroem tudo. Várias metodologias já nos foram apresentadas, mas nenhuma delas resolve tudo tão bem quando o Atomic Design. A metodologia tem ganhado mais força a cada dia que passa, e quando encontrou os Single File Components, aconteceu um casamento perfeito.\nVou mostrar como a união dos componentes autônomos do Vue funcionam perfeitamente com Atomic Design e como jogamos a responsabilidade do fluxo de dados integralmente pro Vuex.",
-    startTime: "17:20",
-    duration: "30min"
-  },
-  {
-    type: "talk",
-    img: "/img/edd.png",
-    topic: "Testing vuex",
-    author: ["Palestra", "Lecture"],
-    speakerLabel: "Core Commiter",
-    social: [
-      {
-        "github": "https://github.com/eddyerburgh",
-        "twitter": "https://twitter.com/EddYerburgh"
-      }
-    ],
-    authorInfo: ["Edd Yerburgh", "Edd Yerburgh"],
-    description: "How to write unit tests for applications that use Vuex.",
     startTime: "17:50",
     duration: "30min"
-  },
+  }
 ]
