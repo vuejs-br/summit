@@ -23,6 +23,7 @@ footer.footer
         li: nuxt-link(to="/speakers") {{ $t('footer.links.speakers') }}
         li: nuxt-link(to="/schedule") {{ $t('footer.links.schedule') }}
         li: nuxt-link(to="/workshops") {{ $t('footer.links.workshops') }}
+        li: nuxt-link(to="/codeofconduct") Código de conduta
 
     .footer__bottom
       | {{ $t('footer.description1') }}
