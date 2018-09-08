@@ -33,7 +33,7 @@
 <script>
 export default {
   head: {
-    title: 'VueConf 2017 | Code of Conduct'
+    title: 'Vue.js summit 2018 | Code of Conduct'
   }
 }
 </script>
