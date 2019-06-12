@@ -10,12 +10,13 @@
             :src="autoplayUrl",
             frameborder="0",
             allowfullscreen
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           )
         button.modal-window__button.button(@click="close") ✕
 </template>
 
 <script>
-  const KEY = 'vueconf-splash-video-viewed'
+  const KEY = 'vuejssummit-conf'
   const TIMEOUT_VALUE = 4000
 
   export default {
@@ -24,7 +25,7 @@
     },
     beforeMount() {
       setTimeout(() => {
-        if(this.$cookie) this.open = !this.$cookie.get(KEY)
+        this.open = true;
       }, TIMEOUT_VALUE)
     },
     data() {

@@ -6,7 +6,7 @@
 
   <footer-section></footer-section>
   <cookies/>
-  <!-- <splash-video :videoUrl="splashVideoUrl"></splash-video> -->
+  <splash-video :videoUrl="splashVideoUrl"></splash-video>
 </div>
 </template>
 
@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      splashVideoUrl: 'https://www.youtube.com/embed/TsgdiXGWlIY'
+      splashVideoUrl: 'https://www.youtube.com/embed/hpvqnXt7-mI'
     }
   }
 }
